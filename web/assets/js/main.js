@@ -1,9 +1,3 @@
-/**
-* Template Name: UpConstruction - v1.3.0
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -84,10 +78,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     window.addEventListener('load', togglescrollTop);
     document.addEventListener('scroll', togglescrollTop);
-    scrollTop.addEventListener('click', window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    }));
+    scrollTop.addEventListener('click', event => {
+      event.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
   }
 
   /**
@@ -114,6 +111,15 @@ document.addEventListener('DOMContentLoaded', () => {
         layoutMode: portfolioLayout,
         filter: portfolioFilter,
         sortBy: portfolioSort
+      });
+
+      document.querySelectorAll('.portfolio-container img').forEach(img => {
+        if (img.complete) {
+          portfolioIsotope.layout();
+          return;
+        }
+
+        img.addEventListener('load', () => portfolioIsotope.layout(), { once: true });
       });
 
       let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
