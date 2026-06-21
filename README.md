@@ -2,6 +2,23 @@
 
 Static website for KERRCO Construction.
 
+
+## Software
+I build software and automation for small businesses that eliminates paperwork, scheduling headaches, and repetitive office work.
+
+Case Study - Salmon Canal Software
+
+
+
+
+
+
+
+
+
+
+
+
 ## Site Structure
 
 - `web/index.html` - home page with services, project gallery, and contact footer
