@@ -30,4 +30,8 @@ Open `http://localhost:8080/`. This static preview does not execute PHP or confi
 
 ## Deployment
 
-Deploy the contents of `web/` using the existing host after completing the release checklist. No hosting migration or publication is part of the local rework. Confirm the production website origin before setting absolute sharing and canonical URLs.
+The confirmed production origin is `https://kerrco.us`; canonical and sharing URLs, robots.txt, and sitemap.xml use that origin. The hosting provider and deployment method remain to be confirmed.
+
+A minimal review ZIP and SHA-256 manifest are available in ignored `artifacts/`. The bundle includes only the pages and required static assets. Recreate it after source changes. Complete the release checklist before publishing through the existing host; no hosting migration or publication is part of the local rework.
+
+For the remaining visual and keyboard checks, use [the desktop browser-review prompt](docs/website-browser-review.md).

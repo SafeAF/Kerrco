@@ -14,11 +14,11 @@ The local site is buildless HTML/CSS in `web/`. Keep the existing hosting enviro
 
 ## Prepare for the existing host
 
-1. Confirm the production website origin, current hosting provider, document root, upload method, and HTTPS configuration. No new hosting service is needed for these static pages.
-2. Add the confirmed absolute origin to each page's `og:image` and add page-specific canonical URLs. Keep `404.html` excluded from indexing. Do not infer the website origin from the application's `order.kerrco.us` URL.
+1. The owner confirmed `https://kerrco.us` as the production origin. Confirm the current hosting provider, document root, upload method, and HTTPS configuration. No new hosting service is needed for these static pages.
+2. Canonical URLs and absolute sharing-image URLs now use the confirmed origin. Check the deployed site preserves this origin or deliberately revise all metadata if the preferred hostname changes. `404.html` remains excluded from indexing and the sitemap.
 3. Back up the currently deployed site using the host's existing backup/release process. Record how to restore that version before replacing files.
-4. Prepare the contents of `web/` with paths preserved. Do not upload repository metadata, planning documents, or credentials. Preserve original photography in the repository; the pages reference optimized web copies.
-5. Verify the selected release includes all nine HTML pages, `assets/css/home.css`, and every image referenced by HTML or sharing metadata. No package installation, compilation, database, or PHP execution is required for the current pages.
+4. A local review ZIP and matching SHA-256 manifest are available in ignored `artifacts/`. It contains the current 43 required files with paths preserved and HTML at the archive root. It excludes original/unreferenced photos, vendor assets, PHP handlers, and repository documents. Preserve original photography in the repository. If source files change, recreate the archive and manifest before deployment; the existing bundle is a snapshot, not an automatic build.
+5. Verify the selected release includes all nine HTML pages, `assets/css/home.css`, referenced images, favicon, robots.txt, and sitemap.xml. The current bundle passed checksum and local HTTP checks for all 43 files. No package installation, compilation, database, or PHP execution is required for the current pages.
 6. Confirm email-only contact is sufficient. Legacy `forms/*.php` files do not establish working mail delivery and are not connected to the current site. If replacing email links with a form later, test accepted delivery and failures on the actual host before showing success messages.
 
 ## Publish and verify
@@ -35,4 +35,4 @@ After the owner requests publication, use the existing deployment method and pre
 
 ## Current verification limits
 
-The nine local pages returned HTTP 200. Static checks passed for 238 link/resource references, 36 image elements, fragments, titles, metadata, and email recipients. Browser automation is unavailable, so visual and keyboard review remains open. The water-software case-study draft now uses an owner-supplied read-only browser review; evidence and unresolved questions are recorded in `water-delivery-software-review.md`. No publishable screenshots were supplied, and transactional behavior was not tested. No deployment or mail delivery test has been performed.
+Static checks passed for nine pages, 255 link/resource references, 36 image elements, balanced HTML tags, canonical URLs, sitemap destinations, 404 indexing metadata, and email recipients. The 43-file review archive passed checksum verification, and all 43 local resources returned HTTP 200. Browser automation is unavailable, so visual and keyboard review remains open; use `website-browser-review.md` for the desktop handoff. The water-software case-study draft uses an owner-supplied read-only browser review; evidence and unresolved questions are recorded in `water-delivery-software-review.md`. No publishable screenshots were supplied, and transactional behavior was not tested. No deployment or mail delivery test has been performed.

@@ -99,7 +99,8 @@ The live site pages do not load or submit to the legacy PHP handlers. A delivere
 - Provide accessible navigation, a skip link, visible focus, reduced-motion behavior, and mobile layout rules.
 - Keep essential content and galleries usable without JavaScript, animation, hover, or a preloader.
 - Old template CSS, JS, and vendor assets remain in the repository but are no longer loaded by these pages. Do not remove original assets as part of this milestone.
-- Each page has its own title, description, and sharing metadata. A 1200 × 630 branded JPEG supports software-page sharing. Final absolute sharing URLs and canonical metadata need the confirmed production website origin.
+- Each page has its own title, description, and sharing metadata. A 1200 × 630 branded JPEG supports software-page sharing. The owner confirmed `https://kerrco.us` as the production origin; canonical URLs and absolute sharing-image URLs now use it. Sharing images include dimensions and alternative text. A shared SVG favicon is included.
+- `robots.txt` references an eight-page `sitemap.xml`. The missing-page document remains `noindex` and is excluded from the sitemap and canonical URLs.
 
 ## 7. Implementation checklist
 
@@ -129,7 +130,9 @@ The live site pages do not load or submit to the legacy PHP handlers. A delivere
 - [x] Document release steps and remaining verification in `docs/website-release-checklist.md`.
 - [ ] Check desktop/mobile layout, native gallery controls, keyboard navigation, contrast, and reduced-motion behavior in a browser.
 - [ ] Confirm final public software copy and material labels with the owner.
-- [ ] Confirm the production origin and set absolute sharing/canonical URLs.
+- [x] Confirm the production origin and set absolute sharing/canonical URLs, favicon, robots.txt, and sitemap.
+- [x] Review sampled palette contrast, remove unused homepage CSS, and add safeguards for text wrapping in narrow grid columns.
+- [x] Prepare a minimal local review archive and verify its contents against a SHA-256 manifest.
 - [ ] Verify email drafts in a real mail app; confirm email-only contact is sufficient for launch.
 - [ ] Review final local pages with the owner and confirm hosting/deployment access.
 
@@ -137,6 +140,12 @@ Publication remains a separate step. Do not mark release readiness complete whil
 
 ## 8. Latest validation
 
-Checked nine HTML pages, 238 link/resource references including sharing images, and 36 image elements. No missing resources/fragments, duplicate IDs, duplicate titles, missing metadata/navigation, incorrect email recipients, or image dimension mismatches were found. `git diff --check` passed. Every local page returned HTTP 200, including the preview's direct request for `404.html`; production missing-page routing still needs a host-level check.
+Checked nine HTML pages, 255 link/resource references including canonical and sharing URLs mapped to local files, and 36 image elements. No missing resources/fragments, duplicate IDs, duplicate titles, incorrect email recipients, image dimension mismatches, or unbalanced HTML tags were found. Verified the eight sitemap destinations, canonical URLs, and 404 indexing metadata. `git diff --check` passed.
+
+Sampled text/background contrast ratios range from 5.01:1 to 13.48:1; the focus outline against the gallery background is 4.11:1. These calculations are not a complete visual or accessibility audit.
+
+A 43-file local review ZIP and SHA-256 manifest are in ignored `artifacts/`. The archive includes all nine pages, referenced photography, sharing artwork, favicon, shared CSS, robots.txt, and sitemap.xml. Original/unreferenced photos, old template/vendor assets, PHP handlers, and repository documents are excluded. Verified all 43 archive file checksums and all 43 local HTTP resource responses. Production missing-page routing still needs a host-level check.
 
 Browser inventory reported that the browser access host is unavailable. Desktop/mobile rendering, interactive keyboard behavior, and real email-app handling are unverified. The local preview remains available at `http://localhost:8080/`.
+
+`docs/website-browser-review.md` contains a ready-to-use desktop review prompt. The production domain is confirmed; hosting provider, document root, deployment method, and rollback procedure remain unspecified. No publication has been performed.
