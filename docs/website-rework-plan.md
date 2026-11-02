@@ -1,7 +1,7 @@
 # KERRCO website rework plan
 
 Date: November 2, 2026
-Status: Software-led site implemented locally; case-study details and visual release review remain open.
+Status: Software-led site and evidence-based case-study draft implemented locally; owner confirmations and visual release review remain open.
 Scope: Rework the static site in `web/`, review locally, and prepare for the existing hosting environment. Publication is a separate step.
 
 ## 1. Direction
@@ -24,7 +24,7 @@ Navigation: **Software & AI · Software project · My background · Contact**, w
 | --- | --- |
 | `index.html` | Software-first introduction, live software proof, three software offers, consultation, and selected background work |
 | `software-ai.html` | Explain custom software, automation, AI use cases, and the approach to a project |
-| `water-delivery-software.html` | Short project overview using confirmed information; link to the production application |
+| `water-delivery-software.html` | Case-study draft covering the observed request, review, order-status, flow-history, and announcement interfaces; link to the production application |
 | `background.html` | Owner introduction, farm/workshop photography, grouped woodwork gallery, and past construction work |
 | `contact.html` | Free consultation request, useful information to include, expectations, and visible email fallback |
 | Three existing `*-project-details.html` pages | Preserve URLs and project facts, present work as historical, and use the shared design |
@@ -50,17 +50,18 @@ Do not promise specific savings, integrations, certifications, customer outcomes
 
 Confirmed by the owner: KERRCO built water delivery scheduling software, live at `https://order.kerrco.us`.
 
-The local project page uses that limited description. It does not invent an interface, feature list, customer name, usage figures, or outcomes. Label the link as a live production application; access may require an account. Do not advertise an open demo.
+The owner supplied a read-only browser-review brief. The project page now describes observed user/admin interfaces and the workflow they suggest. The homepage and software offer page use a shorter version of the same supported feature description. Sign-in is required for the reviewed screens; do not advertise an open demo.
 
-The application could not be inspected through the web reader during planning or this implementation. To expand the overview into a fuller case study, confirm:
+The authenticated review was performed outside this implementation session; its evidence and limits are recorded in `docs/water-delivery-software-review.md`. Request submission, approval transitions, and physical delivery were not tested. Before adding further claims, confirm:
 
-- The workflow and specific problem it solves.
-- Publicly describable capabilities and current use.
+- The previous process and its shortcomings, exact user roles, access rules, scheduling cutoffs, capacity enforcement, and rejection handling.
+- Whether flow readings are manual or equipment-integrated, and whether scheduling controls physical gates.
 - Customer naming permission, if a name is included.
 - Approved screenshots with synthetic or sanitized data.
-- Evidence for any outcome claims.
+- Precise implementation responsibilities, technology stack, and evidence for any outcome claims.
+- Whether reviewed records are demo data, including the reported inconsistent turn-on/off dates. No validation defect has been diagnosed.
 
-The owner corrected the application URL to `https://order.kerrco.us` and authorized regular-user and administrator access for review. Credentials are not stored in repository files. Authenticated inspection remains blocked because the browser access host is unavailable; the web reader also could not access the corrected URL. Customer naming, screenshot publication, capabilities, and outcomes still need confirmation. Missing details do not prevent reviewing the rest of the local site.
+Credentials are not stored in repository files. No screenshots were retained for publication because their identifiers and operational data have unconfirmed demo status. Customer naming remains excluded; the supplied brief reported different company names in the header and footer. Screenshots and additional claims can follow owner confirmation without blocking review of the current text-based case study.
 
 ### Future document-search demo
 
@@ -118,7 +119,8 @@ The live site pages do not load or submit to the legacy PHP handlers. A delivere
 - [x] Align all three construction detail pages with the shared design and historical context.
 - [x] Expand and group the woodwork gallery; optimize selected images.
 - [x] Add page-specific metadata, branded sharing artwork, and an aligned 404 page.
-- [ ] Expand the software case study after public details/screenshots are confirmed.
+- [x] Expand the software case-study draft using the owner-supplied read-only review, with explicit limits on untested behavior.
+- [ ] Confirm remaining case-study details and publication permissions before adding screenshots, customer names, or outcome claims.
 
 ### Milestone 3 — Review and release preparation
 

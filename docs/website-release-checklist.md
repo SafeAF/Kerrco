@@ -35,4 +35,4 @@ After the owner requests publication, use the existing deployment method and pre
 
 ## Current verification limits
 
-The nine local pages returned HTTP 200. Static checks passed for 238 link/resource references, 36 image elements, fragments, titles, metadata, and email recipients. Browser automation is unavailable, so visual and keyboard review remains open. The public application could not be inspected through the web reader. No deployment or mail delivery test has been performed.
+The nine local pages returned HTTP 200. Static checks passed for 238 link/resource references, 36 image elements, fragments, titles, metadata, and email recipients. Browser automation is unavailable, so visual and keyboard review remains open. The water-software case-study draft now uses an owner-supplied read-only browser review; evidence and unresolved questions are recorded in `water-delivery-software-review.md`. No publishable screenshots were supplied, and transactional behavior was not tested. No deployment or mail delivery test has been performed.
