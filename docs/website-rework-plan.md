@@ -133,6 +133,8 @@ The live site pages do not load or submit to the legacy PHP handlers. A delivere
 - [x] Confirm the production origin and set absolute sharing/canonical URLs, favicon, robots.txt, and sitemap.
 - [x] Review sampled palette contrast, remove unused homepage CSS, and add safeguards for text wrapping in narrow grid columns.
 - [x] Prepare a minimal local review archive and verify its contents against a SHA-256 manifest.
+- [x] Add repeatable release checking and tar packaging, with failure-path checks.
+- [x] Prepare Nginx VPS configuration examples and versioned release/rollback instructions.
 - [ ] Verify email drafts in a real mail app; confirm email-only contact is sufficient for launch.
 - [ ] Review final local pages with the owner and confirm hosting/deployment access.
 
@@ -148,4 +150,6 @@ A 43-file local review ZIP and SHA-256 manifest are in ignored `artifacts/`. The
 
 Browser inventory reported that the browser access host is unavailable. Desktop/mobile rendering, interactive keyboard behavior, and real email-app handling are unverified. The local preview remains available at `http://localhost:8080/`.
 
-`docs/website-browser-review.md` contains a ready-to-use desktop review prompt. The production domain is confirmed; hosting provider, document root, deployment method, and rollback procedure remain unspecified. No publication has been performed.
+`docs/website-browser-review.md` contains a ready-to-use desktop review prompt. The owner confirmed an Nginx VPS as the target host. Configuration examples are in `deploy/nginx/`, with upload, HTTPS, 404 verification, release switching, and rollback instructions in `docs/nginx-deployment.md`. VPS OS, SSH destination, deployment account, existing configuration, and certificate setup remain to be confirmed. The configuration has not been tested with `nginx -t` on the server. No publication has been performed.
+
+`scripts/prepare-release.mjs` now repeats the link, metadata, image-dimension, canonical, sitemap, and asset checks and produces a new `.tar.gz` plus JSON manifest and SHA-256 sidecars. It packages only the required static files and does not deploy. Five automated checks passed, including rejection of broken asset paths and invalid SEO metadata/sitemap destinations. The current tar archive was extracted and all 43 hashes matched. Node.js is required only for this optional preparation tool, not for the website or the VPS runtime.

@@ -30,8 +30,16 @@ Open `http://localhost:8080/`. This static preview does not execute PHP or confi
 
 ## Deployment
 
-The confirmed production origin is `https://kerrco.us`; canonical and sharing URLs, robots.txt, and sitemap.xml use that origin. The hosting provider and deployment method remain to be confirmed.
+The confirmed production origin is `https://kerrco.us`; canonical and sharing URLs, robots.txt, and sitemap.xml use that origin. The owner selected an Nginx VPS. See [the VPS deployment guide](docs/nginx-deployment.md) and configuration examples in `deploy/nginx/`.
 
-A minimal review ZIP and SHA-256 manifest are available in ignored `artifacts/`. The bundle includes only the pages and required static assets. Recreate it after source changes. Complete the release checklist before publishing through the existing host; no hosting migration or publication is part of the local rework.
+With Node.js and `tar` available, validate and prepare a fresh bundle:
+
+```sh
+node scripts/prepare-release.mjs --check
+node scripts/prepare-release.test.mjs
+node scripts/prepare-release.mjs
+```
+
+The script creates a versioned `.tar.gz`, JSON manifest, file-level SHA-256 checksums, and archive checksum in ignored `artifacts/`. It includes only the pages and required static assets. It does not connect to a server. Recreate it after site changes and complete the release checklist before publication. The VPS needs no Node.js runtime for the static site.
 
 For the remaining visual and keyboard checks, use [the desktop browser-review prompt](docs/website-browser-review.md).
