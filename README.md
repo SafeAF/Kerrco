@@ -1,10 +1,10 @@
 # Kerrco
 
-Static website for KERRCO Construction.
+Static website for KERRCO: practical software, automation, and AI consulting, supported by a portfolio of hands-on experience.
 
 ## Website Rework
 
-The current direction and implementation checklist are in [docs/website-rework-plan.md](docs/website-rework-plan.md). It covers construction, the woodwork portfolio, and software/AI consulting with a free initial consultation.
+The current direction and implementation checklist are in [docs/website-rework-plan.md](docs/website-rework-plan.md). It leads with software/AI consulting and a free initial consultation. Past construction work, woodworking, and farm photography show the broader background behind the software work.
 
 
 ## Software
@@ -27,7 +27,8 @@ Case Study - Salmon Canal Software
 
 - `web/index.html` - home page with services, project gallery, and contact footer
 - `web/*-project-details.html` - real project detail pages
-- `web/assets/css/main.css` - site styles
+- `web/assets/css/home.css` - software-led homepage styles
+- `web/assets/css/main.css` - existing construction portfolio styles
 - `web/assets/js/main.js` - site behavior
 - `web/forms/*.php` - optional PHP mail handlers for form posts
 

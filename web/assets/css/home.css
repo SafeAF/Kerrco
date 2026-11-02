@@ -49,6 +49,14 @@ small { display: block; font-size: 13px; line-height: 1.6; }
 .hero-copy { padding-block: 12px; }
 .hero h1 { margin-bottom: 28px; }
 .hero h1 span { color: #8b6426; }
+.hero-proof { justify-content: center; }
+.hero-proof h2 { font-size: clamp(30px, 3vw, 42px); margin-bottom: 22px; }
+.offer-grid .path { border-top: 2px solid var(--gold); padding-top: 25px; }
+.offer-grid .path > p:last-child { margin-bottom: 0; }
+.farm { background: var(--sand); }
+.farm-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.farm-grid img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+.farm-grid figcaption { font-size: 14px; padding-top: 16px; }
 .intro { font-size: 18px; color: var(--muted); max-width: 500px; margin-bottom: 30px; }
 .hero-image { align-self: stretch; display: flex; flex-direction: column; justify-content: center; }
 .hero-image > img { width: 100%; height: 420px; object-fit: cover; object-position: 50% 55%; }
@@ -150,6 +158,8 @@ details img { max-height: 480px; width: 100%; object-fit: contain; margin-top: 1
   .path > img, .software-preview { height: 200px; }
 }
 @media (max-width: 760px) {
+  .farm-grid { grid-template-columns: 1fr; gap: 30px; }
+  .farm-grid img { max-height: 440px; }
   .wrap { width: calc(100% - 40px); }
   .header-inner { padding-block: 22px 10px; gap: 16px; }
   .site-header nav { width: 100%; justify-content: space-between; gap: 10px; }

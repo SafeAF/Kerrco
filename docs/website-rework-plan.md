@@ -1,20 +1,32 @@
 # KERRCO website rework plan
 
 Date: November 2, 2026  
-Status: Ready for implementation; discovery complete  
+Status: Software-led homepage implemented; visual review pending
 Scope: Rework the existing static site in `web/`, review locally, then prepare for the existing hosting environment.
 
 ## 1. Direction
 
-Present KERRCO as one business with three clear areas of work:
+Lead with KERRCO's **software, automation, and practical AI consulting** for small businesses. The owner no longer operates the construction company. Construction, woodworking, and farming demonstrate a broad, hands-on skillset that informs the software work; they are not three equal service lines.
 
-1. **Construction** — residential and commercial construction work, supported by the existing project portfolio.
-2. **Woodwork** — handmade bowls, vessels, and other wood pieces, supported by the actual photos in `web/assets/img/woodwork/`.
-3. **Software & AI** — custom business software, workflow automation, and practical AI consulting for small businesses, with a free initial consultation.
+1. **Software & AI** — the primary offer: custom business software, workflow automation, and practical AI consulting, with a free initial consultation.
+2. **Hands-on background** — farm life, woodworking, and workshop projects show curiosity, craft, and practical problem solving.
+3. **Past construction work** — retain the real project portfolio as evidence of experience. Clearly label it as past work and remove construction sales/inquiry prompts.
 
-The shared story is hands-on problem solving: building useful things, understanding how work happens, and paying attention to the details. Each area gets its own explanation, proof, and next step so visitors can quickly find what they need.
+The shared story is hands-on problem solving: understanding how work happens, paying attention to details, and building useful tools. The main visitor path is software offer → working software proof → consultation. The broader portfolio supports confidence in the person doing that work.
 
-Keep the KERRCO name and the construction company's local identity. Use the owner’s construction and making background to explain the software consulting perspective. Do not imply separate companies or a large consulting team.
+Keep the KERRCO name and Twin Falls identity. Use an owner-led voice. Do not imply an active construction business, farm services, separate companies, or a large consulting team.
+
+### Current implementation direction (supersedes the original three-service layout below)
+
+- Navigation: **Software & AI · Software project · My background · Contact**, plus a free consultation link.
+- Hero: **Practical software. Hands-on perspective.** Lead with the software offer and place the water delivery scheduling application beside it as real proof. No invented application screenshot or capabilities.
+- Follow with three software offers: custom software, workflow automation, and practical AI. These are possible project types, not completed-client claims.
+- Present the consultation before the background portfolio. Keep the honest email request flow.
+- Use the owner introduction, farm/workshop photography, woodwork, and explicitly historical construction projects as supporting sections below the software content.
+- Dedicated pages should follow this hierarchy: Software & AI and the water delivery case study first; Background/Portfolio and Contact next. Any dedicated construction page is an archive, not a construction services landing page. Woodwork is a skillset portfolio rather than a separate sales path unless requested later.
+- Remove construction quote prompts, current contractor claims, and three-way inquiry selectors. Preserve existing project URLs and add context explaining the shift to software.
+
+The original detailed page concepts and milestone log below remain as implementation history. Where they describe equal service lines, current construction services, or construction inquiries, this revision takes precedence.
 
 ### Changes from the previous plans
 
@@ -297,3 +309,14 @@ Milestone 1 source work is implemented in `web/index.html` and `web/assets/css/h
 - Desktop/mobile visual review and interactive keyboard checks remain open: the browser automation host was unavailable. The existing preview at `http://localhost:8080/` serves the updated homepage. Email URL checks establish the intended recipient and subject; opening a visitor's mail app and sending mail were not tested.
 
 Next: complete the local visual review, then begin Milestone 2's dedicated pages. No publication or hosting changes have been made.
+
+### Software-led revision
+
+The owner confirmed that the construction company is no longer operating and that software should be the focus. Implemented the revised hierarchy described in Section 1:
+
+- Software-led title, description, navigation, hero, and service offers. The water scheduling application is featured beside the opening software introduction.
+- Consultation appears before the background portfolio. Construction sales prompts and woodwork purchase prompts were removed.
+- Added farm, livestock, and tractor-workshop photography using optimized, orientation-corrected JPEG copies. Original uploads are preserved. Reviewed all 15 farm photos and the four newly added workshop/woodwork photos before selection.
+- Added past-work context on all three construction detail pages and updated their navigation to the software and background sections.
+- Updated the README and current plan direction to reflect software as the offer and the broader skillset as supporting experience.
+- Checked 133 link/resource references across the homepage and construction detail pages, fragment destinations, and homepage image dimensions/alt attributes. The local preview returned HTTP 200 and served the updated headline. Visual desktop/mobile review remains outstanding because the browser automation host was unavailable in this session.
