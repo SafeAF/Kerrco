@@ -2,6 +2,10 @@
 
 Static website for KERRCO Construction.
 
+## Website Rework
+
+The current direction and implementation checklist are in [docs/website-rework-plan.md](docs/website-rework-plan.md). It covers construction, the woodwork portfolio, and software/AI consulting with a free initial consultation.
+
 
 ## Software
 I build software and automation for small businesses that eliminates paperwork, scheduling headaches, and repetitive office work.
