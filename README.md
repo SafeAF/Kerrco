@@ -1,39 +1,24 @@
-# Kerrco
+# KERRCO
 
-Static website for KERRCO Construction.
+Static website for practical software, automation, and AI consulting, supported by a portfolio of hands-on experience in farming, woodworking, and past construction work.
 
-## Website Rework
+The current direction and progress are in [the website rework plan](docs/website-rework-plan.md). See [the release checklist](docs/website-release-checklist.md) for remaining review and hosting steps.
 
-The current direction and implementation checklist are in [docs/website-rework-plan.md](docs/website-rework-plan.md). It covers construction, the woodwork portfolio, and software/AI consulting with a free initial consultation.
+## Site structure
 
+- `web/index.html` — software-led homepage.
+- `web/software-ai.html` — consulting offer and possible project types.
+- `web/water-delivery-software.html` — water scheduling project overview.
+- `web/background.html` — farm, woodwork, and historical construction portfolio.
+- `web/contact.html` — free consultation and software inquiry instructions.
+- `web/*-project-details.html` — preserved construction project URLs.
+- `web/404.html` — missing-page recovery.
+- `web/assets/css/home.css` — shared site styles.
+- `web/assets/img/rework/` — optimized photography and sharing artwork; original uploads remain intact elsewhere in the image tree.
 
-## Software
-I build software and automation for small businesses that eliminates paperwork, scheduling headaches, and repetitive office work.
+The pages are buildless and require no JavaScript for essential content or navigation. Older template/vendor files and PHP handlers remain in the repository but are not loaded or submitted to by the current pages. Contact uses email links rather than a submitted form.
 
-Case Study - Salmon Canal Software
-
-
-
-
-
-
-
-
-
-
-
-
-## Site Structure
-
-- `web/index.html` - home page with services, project gallery, and contact footer
-- `web/*-project-details.html` - real project detail pages
-- `web/assets/css/main.css` - site styles
-- `web/assets/js/main.js` - site behavior
-- `web/forms/*.php` - optional PHP mail handlers for form posts
-
-The site intentionally excludes the original BootstrapMade template demo pages so unfinished placeholder content is not deployed.
-
-## Local Preview
+## Local preview
 
 From the repository root:
 
@@ -41,11 +26,20 @@ From the repository root:
 python3 -m http.server 8080 --directory web
 ```
 
-Then open `http://localhost:8080/`.
+Open `http://localhost:8080/`. This static preview does not execute PHP or configure production missing-page routing.
 
-## Deployment Notes
+## Deployment
 
-- Deploy the contents of `web/`.
-- PHP form handlers require a host with PHP mail support. If the host does not provide mail delivery, route forms through the hosting provider's SMTP or a transactional email service.
-- Before publishing, check that all internal links and image references resolve.
-- Keep images compressed before committing; oversized originals should stay outside the deployed `web/assets/img` tree.
+The confirmed production origin is `https://kerrco.us`; canonical and sharing URLs, robots.txt, and sitemap.xml use that origin. The owner selected an Nginx VPS. See [the VPS deployment guide](docs/nginx-deployment.md) and configuration examples in `deploy/nginx/`.
+
+With Node.js and `tar` available, validate and prepare a fresh bundle:
+
+```sh
+node scripts/prepare-release.mjs --check
+node scripts/prepare-release.test.mjs
+node scripts/prepare-release.mjs
+```
+
+The script creates a versioned `.tar.gz`, JSON manifest, file-level SHA-256 checksums, and archive checksum in ignored `artifacts/`. It includes only the pages and required static assets. It does not connect to a server. Recreate it after site changes and complete the release checklist before publication. The VPS needs no Node.js runtime for the static site.
+
+For the remaining visual and keyboard checks, use [the desktop browser-review prompt](docs/website-browser-review.md).
