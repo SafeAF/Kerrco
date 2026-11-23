@@ -55,6 +55,7 @@ small { display: block; font-size: 13px; line-height: 1.6; }
 .hero-proof h2 { font-size: clamp(30px, 3vw, 42px); margin-bottom: 22px; }
 .offer-grid .path { border-top: 2px solid var(--gold); padding-top: 25px; }
 .offer-grid .path > p:last-child { margin-bottom: 0; }
+.related-project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
 .farm { background: var(--sand); }
 .farm-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
 .farm-grid img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
@@ -188,6 +189,7 @@ details img { max-height: 480px; width: 100%; object-fit: contain; margin-top: 1
   .actions { gap: 20px; }
 }
 @media (max-width: 760px) {
+  .related-project-grid { grid-template-columns: 1fr; }
   .page-intro { padding-block: 45px; }
   .case-layout, .photo-grid { grid-template-columns: 1fr; gap: 32px; }
   .project-facts ul { grid-template-columns: 1fr 1fr; }

@@ -9,7 +9,7 @@ test('release validation rejects broken assets, metadata and sitemap entries', a
   const repository = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
   const webRoot = path.join(repository, 'web');
   const baseline = await checkSite(webRoot);
-  assert.equal(baseline.pages, 9);
+  assert.equal(baseline.pages, 10);
   assert(baseline.files.includes('assets/js/software-carousel.js'));
   assert(!baseline.files.some(file => file.includes('vendor/') || file.endsWith('.php')));
   const artifacts = path.join(repository, 'artifacts');
