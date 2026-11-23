@@ -1,5 +1,7 @@
 # Local Software & AI Consulting Strategy
 
+For a concrete project example, a possible client workflow, and draft website copy, see [Turning a difficult workflow into a practical tool](workflow-to-practical-tool.md).
+
 ## Overview
 
 KerrCo's advantage is not AI.
