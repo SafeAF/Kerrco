@@ -8,6 +8,7 @@ The current direction and progress are in [the website rework plan](docs/website
 
 - `web/index.html` — software-led homepage.
 - `web/software-ai.html` — consulting offer and possible project types.
+- `web/workflow.html` — illustrated request-to-estimate walkthrough, other possible projects, and the client process. The optional stage controls use `web/assets/js/workflow.js`; all stages remain readable without JavaScript.
 - `web/software-portfolio.html` — Water Ordering, ActiveFundPerf, and IDWX project descriptions and application links.
 - `web/water-delivery-software.html` — water scheduling project overview.
 - `web/background.html` — farm, woodwork, and historical construction portfolio.

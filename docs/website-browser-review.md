@@ -4,11 +4,13 @@ Use this prompt in ChatGPT Desktop with browser access. This review is of the lo
 
 > Review the static website at `http://localhost:8080/`. If it is unavailable, start a static server from this repository with `web/` as its document root, or ask me to start the existing preview.
 >
-> Inspect the homepage, Software & AI, Software project, My background, Contact, and all three past construction project pages. Also open `/404.html` to check its recovery links.
+> Inspect the homepage, Software & AI, How it works (`/workflow.html`), Software Portfolio, the water software case study, My background, Contact, and all three past construction project pages. Also open `/404.html` to check its recovery links.
 >
 > Check representative pages at 1440px, 768px, 375px, and 320px wide. Report clipped text, horizontal scrolling, awkward image crops, unreadable text, or overlapping controls. If viewport resizing is unavailable, report which widths you actually checked.
 >
 > Use keyboard navigation: test the skip link, header/footer links, consultation links, photo links, and native expandable alternate woodwork views. Confirm visible focus and a usable focus order. Open larger photos and use Back to return. Test reduced-motion navigation if available.
+>
+> On `/workflow.html`, step through all five stages using the stage buttons and Previous/Next. Test keyboard activation and visible focus, the first/last disabled controls, and the native example disclosures. Visit `/workflow.html#stage-visit` directly, then check that all five stages are readable with JavaScript disabled. The example is fictional and does not send information. Check that the expanded header fits at the tested widths.
 >
 > Check that software and AI lead the site, the water case study distinguishes observed interface features from untested behavior, and construction is consistently described as past work. Do not infer unsupported features or outcomes.
 >

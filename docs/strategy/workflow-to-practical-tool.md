@@ -1,6 +1,6 @@
 # Turning a difficult workflow into a practical tool
 
-Status: Working exploration for the KERRCO offer and future website copy.
+Status: Working exploration for the KERRCO offer. Adapted into [the workflow page](../../web/workflow.html) on November 23, 2026, with a fictional request walkthrough, additional examples, and the client process. Service terms below remain open decisions.
 Date: November 22, 2026.
 Related: [Local consulting strategy](local-ai-consulting.md) and [website direction](../website-rework-plan.md).
 
