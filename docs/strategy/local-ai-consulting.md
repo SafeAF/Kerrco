@@ -166,6 +166,18 @@ These systems often provide immediate ROI.
 
 ---
 
+## Project Pricing
+
+Most projects are flat fee, with a defined scope and an agreed project price before work begins. Flat fee is the usual approach rather than a promise that every kind of engagement uses the same pricing model.
+
+If the scope changes, agree on any additional work and cost before proceeding. Define any recurring hosting, service, or support costs separately in the project scope.
+
+Website wording:
+
+> Most projects are flat fee. We agree on the scope and project price before work begins.
+
+---
+
 ## Productized Service Strategy
 
 Avoid selling:

@@ -14,7 +14,7 @@ A starting point could be: “Show me one job, from the first customer request t
 
 The opportunity might be a request that gets lost, information copied between systems, a schedule that only one person understands, or paperwork that has to be assembled by hand. The project starts with that specific friction and a clear idea of what would make the work easier.
 
-This document explores a possible service process and how to explain it on the site. The examples are hypothetical; they are not completed client projects or promises of results. Pricing, schedules, and support terms remain to be decided.
+This document explores a possible service process and how to explain it on the site. The examples are hypothetical; they are not completed client projects or promises of results. Most projects use a flat fee, with scope and price agreed before work begins. Specific fees, schedules, and support terms are agreed per project.
 
 ## A concrete example: customer request to estimate
 
@@ -103,7 +103,7 @@ Write down:
 
 Choose a first version that completes one useful piece of work. For the contractor example, that could be capturing a request and getting it ready for an estimate.
 
-Define the users, included steps, required information, integrations, and acceptance criteria. Also define the price, schedule, client responsibilities, and what happens if the scope changes. Investigate uncertain integrations before promising them.
+Define the users, included steps, required information, integrations, and acceptance criteria. Most projects use a flat fee, with scope and project price agreed before work begins. Also define the schedule, client responsibilities, and what happens if the scope changes. Agree on any additional work and cost before proceeding. Investigate uncertain integrations before promising them.
 
 Decide who owns the application and accounts, who pays recurring costs, where business data is stored, and how it can be exported. Agree on what happens after delivery, including support and changes.
 
@@ -173,7 +173,7 @@ A focused tool could give staff one place to record each request, collect the in
 **Start with the work. Build something useful.**
 
 1. **Show me where it gets difficult.** We walk through the task, the people involved, and where time or information gets lost.
-2. **Choose a practical first step.** We consider your existing tools and agree on a focused improvement, scope, and cost.
+2. **Choose a practical first step.** We consider your existing tools and agree on a focused improvement. Most projects are flat fee, with scope and price agreed up front.
 3. **Try it in your workflow.** You and the people doing the work help shape the tool and test it with real tasks.
 4. **Put it to use.** I help you get started, hand over the agreed documentation, and review how it is working.
 
