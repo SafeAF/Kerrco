@@ -1,6 +1,6 @@
 # Software consulting refresh — November 24, 2026
 
-Scope: local implementation of the owner's requested improvements. Deployment, mail delivery enablement, and new account setup are separate actions.
+Scope: implementation of the owner's requested improvements, private backend setup after Samuel supplied Gmail authentication, and public activation following his explicit deployment request.
 
 ## Implemented
 
@@ -28,8 +28,8 @@ Scope: local implementation of the owner's requested improvements. Deployment, m
 
 ## Outstanding inputs and verification
 
-- Gmail SMTP is selected and its nonsecret settings are in the environment template. Samuel still needs to create a dedicated app password privately. Production configuration and an owner-inbox receipt test remain required before enabling live submissions. See [inquiry delivery](inquiry-form.md).
+- The refreshed website and public inquiry route are deployed. The backend uses verified Gmail authentication; Samuel confirmed the authorized test inquiry arrived before activation. Public response hashes and invalid native/JSON submissions passed deployment checks without another email. See [the deployment record](deployments/2026-11-24-consulting-refresh.md), [inquiry delivery](inquiry-form.md), and [the backend setup record](deployments/2026-11-24-inquiry-backend.md).
 - No portrait has been supplied; the homepage uses the existing workshop photograph.
-- The standard browser tool's access host was unavailable; the owner authorized headless Chromium. The checks above establish the tested layouts and interactions, not a complete accessibility audit. Screen-reader announcements, full keyboard traversal, mail-app behavior, and production HTTPS/routing are not established by the local checks.
+- The standard browser tool's access host was unavailable; the owner authorized headless Chromium. Local and deployed browser checks establish the tested layouts and interactions, not a complete accessibility audit. Screen-reader announcements, full keyboard traversal, and mail-app behavior remain outside those checks. Production HTTPS, response bytes, and inquiry routing are verified in the deployment record.
 
 Do not describe local preview acknowledgements or captured `.test` mail as real inbox delivery. Do not deploy the static form page without the backend, route, and approved delivery setup ready.

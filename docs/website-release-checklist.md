@@ -4,7 +4,7 @@ The local site is buildless HTML/CSS in `web/`. The owner selected an Nginx VPS 
 
 ## November 24 consulting refresh
 
-The pending local refresh broadens the offer to software consulting and adds a real inquiry endpoint. See [the implementation record](2026-11-24-consulting-refresh.md) and [form setup and delivery gates](inquiry-form.md). A static archive alone cannot enable the form. Verify the backend, approved SMTP sender/relay, actual owner-inbox receipt, same-origin route, native and enhanced submissions, errors, and email fallback before publishing the refreshed contact page.
+The refresh broadens the offer to software consulting and adds a real inquiry endpoint. It was deployed after Samuel confirmed receipt of the authorized Gmail test inquiry; see [the deployment record](deployments/2026-11-24-consulting-refresh.md), [implementation record](2026-11-24-consulting-refresh.md), and [form setup](inquiry-form.md). A static archive alone cannot enable the form. Future releases must preserve the verified backend, SMTP configuration, and exact same-origin route, and check native/enhanced submissions, errors, and the email fallback.
 
 ## Local review
 

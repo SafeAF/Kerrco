@@ -6,11 +6,13 @@ The site remains buildless. Inquiry delivery is a separate Python WSGI service b
 
 ## Delivery status
 
-The application, service configuration, and route are implemented locally. They have not been installed or enabled on the production host.
+On November 24, 2026, the committed backend (`16ee369d2e3f8d5c3026b30ea7e7d892b0931bea`) was installed on `proxy-1` as the dedicated `kerrco-inquiry` service. It is enabled and running only on `127.0.0.1:8766`. After Samuel confirmed delivery and requested deployment, the refreshed website and exact public Nginx `/inquiries` route were activated. See [the backend setup record](deployments/2026-11-24-inquiry-backend.md) and [public deployment record](deployments/2026-11-24-consulting-refresh.md).
 
 On November 24, 2026 Mountain time, a read-only host inspection found Exim running on loopback. Its routing test for the existing public recipient returned **“Mailing to remote domains not supported.”** Therefore the current host mail service cannot be used to deliver inquiries to the Gmail inbox without further configuration. Do not enable the live form route on the assumption that local SMTP is sufficient.
 
 Samuel confirmed that `kerrcoenterprises@gmail.com` remains the public contact address and Gmail is the preferred delivery service. `deploy/kerrco-inquiry.env.example` contains Gmail's host, sender, username, STARTTLS, and port 587; its password is intentionally blank. Configure the credential privately in `/etc/kerrco-inquiry.env`, root-owned mode `0600`; never put credentials in repository files, command arguments, screenshots, or chat.
+
+Samuel privately saved the app password in that server file. Google's display spaces were removed without displaying the secret, and Gmail STARTTLS authentication passed. Authentication did not send email. Samuel then explicitly authorized one real test inquiry; the running backend returned HTTP 201 after Gmail SMTP accepted it at `2026-11-24T17:30:57Z`. Samuel subsequently confirmed receipt on November 24, 2026. Public routing and invalid native/JSON submissions were verified during deployment without sending another message. No separate manual reply test is recorded.
 
 ## Gmail setup
 
