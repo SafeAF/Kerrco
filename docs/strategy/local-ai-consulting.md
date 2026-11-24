@@ -6,7 +6,7 @@ For a concrete project example, a possible client workflow, and draft website co
 
 Lead with software consulting and development: new applications, improvements to existing software, automation and integrations, and technical advice. AI is one possible tool. Linux servers, hosting, deployments, and services are a supporting offer, based on decades of running personal Linux infrastructure.
 
-Keep the established software career prominent: development since age 15, ten years at SLAC, and a year at Fortinet. Construction, farming, and woodworking round out that background.
+Keep the established software career prominent: development since age 15, ten years at SLAC, and later work at Fortinet. Construction, farming, and woodworking round out that background.
 
 Most projects are flat fee. The initial conversation is free; any paid discovery, prototype, or build is scoped and priced before starting. Ownership, hosting, recurring costs, handover, and support are agreed in the proposal.
 
