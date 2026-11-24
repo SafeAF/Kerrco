@@ -1,0 +1,13 @@
+bind = '127.0.0.1:8766'
+workers = 1
+worker_class = 'gthread'
+threads = 4
+timeout = 30
+graceful_timeout = 30
+limit_request_line = 2048
+limit_request_fields = 32
+limit_request_field_size = 4096
+accesslog = None
+errorlog = '-'
+capture_output = False
+forwarded_allow_ips = '127.0.0.1,::1'

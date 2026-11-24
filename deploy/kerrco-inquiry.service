@@ -1,0 +1,25 @@
+[Unit]
+Description=KERRCO inquiry endpoint
+After=network.target
+
+[Service]
+Type=simple
+User=kerrco-inquiry
+Group=kerrco-inquiry
+WorkingDirectory=/opt/kerrco-inquiry/current/server
+EnvironmentFile=/etc/kerrco-inquiry.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/kerrco-inquiry/venv/bin/gunicorn --config gunicorn.conf.py inquiry:create_app()
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+MemoryMax=128M
+TasksMax=32
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

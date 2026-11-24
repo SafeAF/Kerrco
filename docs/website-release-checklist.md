@@ -2,6 +2,10 @@
 
 The local site is buildless HTML/CSS in `web/`. The owner selected an Nginx VPS at `https://kerrco.us`. Publication is separate from the local rework. See `nginx-deployment.md` for configuration, upload, verification, and rollback instructions.
 
+## November 24 consulting refresh
+
+The pending local refresh broadens the offer to software consulting and adds a real inquiry endpoint. See [the implementation record](2026-11-24-consulting-refresh.md) and [form setup and delivery gates](inquiry-form.md). A static archive alone cannot enable the form. Verify the backend, approved SMTP sender/relay, actual owner-inbox receipt, same-origin route, native and enhanced submissions, errors, and email fallback before publishing the refreshed contact page.
+
 ## Local review
 
 - [ ] Review `index.html`, `software-ai.html`, `workflow.html`, `software-portfolio.html`, `water-delivery-software.html`, `background.html`, and `contact.html` at desktop, tablet, and narrow mobile widths, including 320px. Check for clipped headings, horizontal scrolling, and legible captions.
@@ -20,8 +24,8 @@ The local site is buildless HTML/CSS in `web/`. The owner selected an Nginx VPS 
 2. Canonical URLs and absolute sharing-image URLs now use the confirmed origin. Check the deployed site preserves this origin or deliberately revise all metadata if the preferred hostname changes. `404.html` remains excluded from indexing and the sitemap.
 3. Back up the currently deployed site using the host's existing backup/release process. Record how to restore that version before replacing files.
 4. Run `node scripts/prepare-release.mjs` with Node.js and `tar` available to create a fresh versioned `.tar.gz`, JSON manifest, file-level checksums, and archive checksum in ignored `artifacts/`. The November 23 workflow-page bundle contains 49 files with HTML at its root. It excludes original/unreferenced photos, vendor assets, PHP handlers, and repository documents. Preserve originals in the repository. Regenerate after site edits; old ZIP and tar archives are snapshots.
-5. Verify the selected release includes all 11 HTML pages, the shared and page-specific stylesheets, `assets/js/software-carousel.js`, `assets/js/workflow.js`, referenced images, favicon, robots.txt, and sitemap.xml. The November 23 bundle passed checks of its file list and all 49 content hashes; its archive checksum also passed. No package installation, compilation, database, or PHP execution is required for the current pages.
-6. Confirm email-only contact is sufficient. Legacy `forms/*.php` files do not establish working mail delivery and are not connected to the current site. If replacing email links with a form later, test accepted delivery and failures on the actual host before showing success messages.
+5. Verify the selected release includes all 11 HTML pages, the shared and page-specific stylesheets, `assets/js/software-carousel.js`, `assets/js/workflow.js`, `assets/js/inquiry.js`, referenced images, favicon, robots.txt, and sitemap.xml. The consulting refresh currently has 52 public files. Static pages need no compilation, database, or PHP; the separate inquiry service needs its pinned Python dependency.
+6. Follow [the inquiry setup](inquiry-form.md): privately configure Gmail authentication, install the backend and exact Nginx route, and verify inbox delivery and failures before publishing the refreshed form page. Keep the Gmail email fallback. Legacy `forms/*.php` handlers are not connected to the current site.
 
 ## Publish and verify
 

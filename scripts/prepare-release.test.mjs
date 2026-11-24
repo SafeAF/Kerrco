@@ -11,6 +11,7 @@ test('release validation rejects broken assets, metadata and sitemap entries', a
   const baseline = await checkSite(webRoot);
   assert.equal(baseline.pages, 11);
   assert(baseline.files.includes('assets/js/software-carousel.js'));
+  assert(baseline.files.includes('assets/js/inquiry.js'));
   assert(!baseline.files.some(file => file.includes('vendor/') || file.endsWith('.php')));
   const artifacts = path.join(repository, 'artifacts');
   await mkdir(artifacts, { recursive: true });
@@ -40,6 +41,12 @@ test('release validation rejects broken assets, metadata and sitemap entries', a
     ));
     await t.test('missing sitemap destination is rejected', () => rejectsMutation(
       'sitemap.xml', xml => xml.replace(/\s*<url><loc>https:\/\/kerrco.us\/contact.html<\/loc><\/url>/, ''), /Sitemap does not match/
+    ));
+    await t.test('inquiry destination stays on the approved same-origin route', () => rejectsMutation(
+      'contact.html', html => html.replace('action="/inquiries"', 'action="https://example.com/collect"'), /inquiry form must POST to \/inquiries/
+    ));
+    await t.test('inquiry data is never submitted through a GET URL', () => rejectsMutation(
+      'contact.html', html => html.replace('method="post"', 'method="get"'), /inquiry form must POST to \/inquiries/
     ));
     assert.equal((await checkSite(fixture)).files.length, baseline.files.length);
   } finally {

@@ -73,6 +73,9 @@ export async function checkSite(webRoot = path.join(repository, 'web')) {
       if (!html.includes(required)) errors.push(`${page}: missing ${required}`);
     }
     for (const match of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) await checkReference(match[1], page);
+    for (const match of html.matchAll(/<form\b[^>]*>/g)) {
+      if (attribute(match[0], 'action') !== '/inquiries' || attribute(match[0], 'method')?.toLowerCase() !== 'post') errors.push(`${page}: inquiry form must POST to /inquiries`);
+    }
     for (const match of html.matchAll(/<meta\b[^>]*>/g)) {
       if (attribute(match[0], 'property') === 'og:image') await checkReference(attribute(match[0], 'content'), page);
     }

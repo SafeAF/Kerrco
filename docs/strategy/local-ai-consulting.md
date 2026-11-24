@@ -2,6 +2,16 @@
 
 For a concrete project example, a possible client workflow, and draft website copy, see [Turning a difficult workflow into a practical tool](workflow-to-practical-tool.md).
 
+## Current offer — November 24, 2026
+
+Lead with software consulting and development: new applications, improvements to existing software, automation and integrations, and technical advice. AI is one possible tool. Linux servers, hosting, deployments, and services are a supporting offer, based on decades of running personal Linux infrastructure.
+
+Keep the established software career prominent: development since age 15, ten years at SLAC, and a year at Fortinet. Construction, farming, and woodworking round out that background.
+
+Most projects are flat fee. The initial conversation is free; any paid discovery, prototype, or build is scoped and priced before starting. Ownership, hosting, recurring costs, handover, and support are agreed in the proposal.
+
+The public homepage is focused on the client need, project proof, and inquiry path. Detailed personal galleries remain on the background page. A branded mailbox and personal name/portrait must use owner-confirmed information.
+
 ## Overview
 
 KerrCo's advantage is not AI.

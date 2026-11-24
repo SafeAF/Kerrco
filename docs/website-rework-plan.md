@@ -4,6 +4,12 @@ Date: November 2, 2026
 Status: Software-led site and evidence-based case-study draft implemented locally; owner confirmations and visual release review remain open.
 Scope: Rework the static site in `web/`, review locally, and prepare for the existing hosting environment. Publication is a separate step.
 
+## November 24, 2026 update
+
+The pending consulting refresh supersedes the software-and-AI emphasis and email-only contact design below. Lead with software consulting, development, improvements to existing applications, automation, and technical advice. AI is optional; Linux infrastructure is a supporting offer. The homepage is shorter and client-focused, with one background teaser. The contact page has a short inquiry form and project FAQ.
+
+See [the implementation record](2026-11-24-consulting-refresh.md) and [the inquiry endpoint setup](inquiry-form.md). The backend and SMTP delivery must be verified before the new form is enabled live. Earlier verification snapshots and deployment records remain historical evidence.
+
 ## 1. Direction
 
 Lead with **software, workflow automation, and practical AI consulting for small businesses**, with a free initial consultation. The owner no longer operates the construction company.

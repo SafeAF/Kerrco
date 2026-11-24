@@ -2,6 +2,10 @@
 
 Target: `https://kerrco.us`. These are preparation instructions, not a record of deployment. The VPS operating system, SSH destination, permissions, certificate manager, and current Nginx layout still need confirmation. Existing `order.kerrco.us` configuration must remain intact.
 
+## Inquiry endpoint addition
+
+The pending November 24 contact-page refresh needs a separate `/inquiries` WSGI endpoint. Read [inquiry setup and delivery checks](inquiry-form.md) before publishing that version. Install and verify the isolated service and approved SMTP relay, then include `deploy/nginx/kerrco-inquiry.conf` only in the existing Kerrco HTTPS server. A static symlink release does not install the endpoint. Preserve unrelated vhosts and test Nginx before any reload.
+
 ## Prepare a release locally
 
 Install/use Node.js and a `tar` command available on PATH. The website itself remains buildless and needs no Node.js process on the VPS.

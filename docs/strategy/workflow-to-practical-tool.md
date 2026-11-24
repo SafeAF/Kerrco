@@ -4,6 +4,8 @@ Status: Working exploration for the KERRCO offer. Adapted into [the workflow pag
 Date: November 22, 2026.
 Related: [Local consulting strategy](local-ai-consulting.md) and [website direction](../website-rework-plan.md).
 
+This worked example illustrates one kind of project within a broader software consulting offer. Existing-application work, technical advice, automation, and supporting Linux infrastructure are also in scope; AI is optional.
+
 ## The idea
 
 > I help small businesses turn a difficult workflow into a practical tool. That might mean custom software, a useful automation, or a focused application of AI.
@@ -173,7 +175,7 @@ A focused tool could give staff one place to record each request, collect the in
 **Start with the work. Build something useful.**
 
 1. **Show me where it gets difficult.** We walk through the task, the people involved, and where time or information gets lost.
-2. **Choose a practical first step.** We consider your existing tools and agree on a focused improvement. Most projects are flat fee, with scope and price agreed up front.
+2. **Choose a practical first step.** We consider your existing tools and agree on a focused improvement. Most projects are flat fee, with scope and price agreed up front. Any paid investigation or prototype is agreed separately when it is the appropriate first step.
 3. **Try it in your workflow.** You and the people doing the work help shape the tool and test it with real tasks.
 4. **Put it to use.** I help you get started, hand over the agreed documentation, and review how it is working.
 
