@@ -6,7 +6,7 @@ The current direction and progress are in [the website rework plan](docs/website
 
 ## Site structure
 
-- `web/index.html` — time-savings introduction, software services, project proof, and inquiry path.
+- `web/index.html` — time-savings introduction, real weather and financial application previews, an irrigation case-study link, software services, and inquiry path. Project tabs support Left/Right and Home/End; both previews remain readable without JavaScript.
 - `web/software-ai.html` — software consulting and development, automation, optional AI, and supporting Linux infrastructure.
 - `web/workflow.html` — illustrated request-to-estimate walkthrough, other possible projects, and the client process. The optional stage controls use `web/assets/js/workflow.js`; all stages remain readable without JavaScript.
 - `web/software-portfolio.html` — Irrigation Water Scheduling, Weather Analysis Suite (IDWX), and $CHPY ETF Research Dashboard (ActiveFundPerf), in that order, with project descriptions and application links.

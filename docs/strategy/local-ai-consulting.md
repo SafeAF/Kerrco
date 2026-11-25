@@ -2,7 +2,7 @@
 
 For a concrete project example, a possible client workflow, and draft website copy, see [Turning a difficult workflow into a practical tool](workflow-to-practical-tool.md).
 
-## Current offer — November 24, 2026
+## Current offer — November 25, 2026
 
 Lead with giving small-business owners and their teams more time back. Find where repetitive manual tasks, disconnected information, and inefficient processes consume their day, then use software and automation to reduce that work.
 
@@ -15,6 +15,8 @@ Most projects are flat fee. The initial conversation is free; any paid discovery
 Samuel Kerr is the owner-confirmed professional name. Use the full name when introducing the developer behind KERRCO. A branded mailbox and portrait still need owner-confirmed details or material.
 
 The homepage should lead with time savings, recognizable business problems, project proof, and a clear inquiry path. Bring the combination of software engineering, current farming, and past experience as a Magic Valley framing contractor forward. Detailed personal galleries remain on the background page.
+
+The November 25 homepage revision is local and awaiting visual review and deployment. Preserve the cream, charcoal, and gold design. Use actual application captures in the hero, with labeled project tabs as the only selector controls. The owner selected the existing weather screenshot as the first view while a publishable irrigation screenshot is unavailable. Keep the irrigation case-study link visible beside the introduction and label the other screenshot project “Financial Analytics.”
 
 ## Primary Value Proposition
 
@@ -48,29 +50,9 @@ Explain how the change fits the existing business, what people still need to do,
 
 ## Why KerrCo Is Different
 
-Most software consultants have never:
+Samuel combines 25 years of software development with current farming and past experience operating a framing company in the Magic Valley. That gives him direct experience with the work of running an operation as well as building software.
 
-* Framed a house.
-* Operated farm equipment.
-* Managed irrigation.
-* Worked in trades.
-* Run a small business.
-
-Most tradesmen do not trust generic technology consultants.
-
-KerrCo can bridge both worlds.
-
-We understand:
-
-* Contractors
-* Farmers
-* Tradesmen
-* Small business owners
-* Operations
-
-And we can build software.
-
-This combination is rare and valuable.
+Make that experience specific: coordinating work, keeping job information together, and fitting administrative tasks around practical work. Explain how that perspective helps him understand a client's process. Avoid unsupported comparisons with other consultants or claims about what local business owners trust.
 
 ---
 
@@ -280,23 +262,27 @@ Work directly with Samuel Kerr: 25 years developing software, ten years at Stanf
 
 ### Proof
 
-Lead with irrigation scheduling as the most directly relevant operational example. Weather analysis and ETF research show additional software capabilities. Explain the user, task, and demonstrated capability; add measured time savings and client testimony when available. Keep hypothetical examples clearly labeled.
+Irrigation scheduling is the most directly relevant operational example. Keep its case study prominent, but lead the homepage screenshot panel with the real weather interface for now, as selected by the owner. Use the existing financial research capture under the accessible label “Financial Analytics.” Retain the specific project names and all three application links in the full portfolio.
 
-### Homepage Copy Direction — Published
+No publishable irrigation capture has been supplied. On November 25 the owner confirmed that the application contains only test data and authorized adding more. The [case-study evidence](../water-delivery-software-review.md) records that clarification. Add a real irrigation screenshot once application and browser access are available, and identify its records as test data; do not substitute a mock interface as evidence of working software.
+
+Explain the user, task, and demonstrated capability; add measured time savings and client testimony when available. Keep hypothetical examples clearly labeled. Date application captures so their displayed values are understood as snapshots.
+
+### Homepage Copy Direction — November 25 local revision
 
 **Get more time back.**
 
-I help small businesses in Twin Falls and the Magic Valley automate repetitive tasks, connect scattered information, and improve the software they use every day.
-
-Spend less time copying data, chasing paperwork, and working around your tools. We start with the task that takes too much of your day and find a practical way to make it easier.
+I build practical software for small businesses tired of spreadsheets, repetitive paperwork, and disconnected systems. The goal is simple: less administrative work and more time running your business.
 
 Most projects are flat fee. We agree on scope and price before work begins.
 
 Button: **Tell me what's taking your time**
 
-Supporting introduction: **I'm Samuel Kerr, a software developer based in Twin Falls with 25 years of development experience. I currently run a farm and previously operated a framing company in the Magic Valley, so I bring experience with both software and the practical work of running a business.**
+Supporting line: **Free initial conversation. No obligation.** Use the same invitation in the header and homepage primary action.
 
-This direction is reflected in the public site copy, with short variations for each page. See [the November 24 deployment record](../deployments/2026-11-24-time-savings-copy.md). A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
+Supporting introduction: **I'm Samuel Kerr. 25 years developing software, including ten years at Stanford Linear Accelerator Center and later work at Fortinet. I also run a farm and previously operated a framing company in the Magic Valley. I understand the work of running a business as well as building its software.**
+
+The previous time-savings copy was published in the [November 24 deployment](../deployments/2026-11-24-time-savings-copy.md). The revision above is implemented locally and has not been deployed. A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
 
 ---
 

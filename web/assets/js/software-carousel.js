@@ -3,8 +3,6 @@
     const slides = [...carousel.querySelectorAll('.software-proof')];
     const picker = carousel.querySelector('.project-picker');
     const buttons = [...picker.querySelectorAll('[data-project]')];
-    const controls = carousel.querySelector('.project-controls');
-    const status = carousel.querySelector('[data-project-status]');
     let current = 0;
 
     function showProject(index) {
@@ -14,27 +12,31 @@
         slide.inert = position !== current;
       });
       buttons.forEach((button, position) => {
-        button.setAttribute('aria-pressed', String(position === current));
+        button.setAttribute('aria-selected', String(position === current));
+        button.tabIndex = position === current ? 0 : -1;
       });
-      status.textContent = `${current + 1} of ${slides.length} · ${buttons[current].textContent}`;
     }
 
     buttons.forEach((button, index) => {
+      button.setAttribute('role', 'tab');
       button.addEventListener('click', () => showProject(index));
+      button.addEventListener('keydown', (event) => {
+        const destinations = { ArrowLeft: current - 1, ArrowRight: current + 1, Home: 0, End: slides.length - 1 };
+        if (!(event.key in destinations)) return;
+        event.preventDefault();
+        showProject(destinations[event.key]);
+        buttons[current].focus();
+      });
     });
-    carousel.querySelector('[data-previous]').addEventListener('click', () => showProject(current - 1));
-    carousel.querySelector('[data-next]').addEventListener('click', () => showProject(current + 1));
 
     // Keep all projects readable if JavaScript is unavailable. No automatic rotation.
     carousel.setAttribute('data-enhanced', '');
-    carousel.setAttribute('aria-roledescription', 'carousel');
+    picker.setAttribute('role', 'tablist');
     slides.forEach((slide, index) => {
-      slide.setAttribute('role', 'group');
-      slide.setAttribute('aria-roledescription', 'slide');
-      slide.setAttribute('aria-label', `${index + 1} of ${slides.length}: ${buttons[index].textContent}`);
+      slide.setAttribute('role', 'tabpanel');
+      slide.setAttribute('aria-labelledby', buttons[index].id);
     });
     showProject(0);
     picker.hidden = false;
-    controls.hidden = false;
   });
 })();

@@ -2,6 +2,10 @@
 
 Source: read-only browser-review brief supplied by the owner in this conversation. This implementation did not independently inspect the authenticated application. Application: `https://order.kerrco.us`.
 
+## Owner clarification — November 25, 2026
+
+The owner confirmed that `order.kerrco.us` contains test data, with no operational data, and authorized adding more test data. This resolves the earlier uncertainty about whether the displayed records were real. Application access is still required to populate and capture the demonstration; no new screenshot has been captured in this revision.
+
 ## Observed interface features
 
 - User order lists grouped as running, pending, rejected, and completed.
@@ -23,14 +27,14 @@ No submission, approval transition, physical delivery, edit, deletion, or announ
 - Exact roles, headgate access rules, scheduling cutoffs, capacity checks, and rejection handling.
 - Whether recorded flow readings are manual or integrated with equipment, and whether scheduling controls physical gates.
 - Correct customer identity and permission to publish it; header and footer reportedly show different company names.
-- Whether displayed records are demo data. One displayed request reportedly has a turn-off date before its turn-on date; validation behavior was not tested. This is a follow-up question, not a diagnosed defect.
+- One displayed test request reportedly has a turn-off date before its turn-on date; validation behavior was not tested. This remains a follow-up question, not a diagnosed defect.
 - Precise implementation responsibilities, technology stack, and evidence for any measurable results. The owner previously confirmed building the software; no narrower role or stack is inferred.
 
 ## Screenshot plan
 
-No publishable screenshots were supplied or added to the website. Reviewed screens contain identifiers, contact information, or operational figures with unconfirmed demo status.
+No publishable screenshots have yet been supplied or added to the website. The owner has confirmed that the displayed records are test data. Capture a representative application view with clearly fictional names and a caption identifying it as test data.
 
-Potential captures, after verifying fictional data and publication permission:
+Potential captures:
 
 1. User order overview showing multiple statuses.
 2. Delivery-request form with fictional headgate and owner.

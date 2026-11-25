@@ -25,7 +25,7 @@
     <div class="wrap header-inner">
       <a class="wordmark" href="index.html" aria-label="KERRCO home">KERRCO<span>.</span></a>
       <nav aria-label="Main navigation"><a href="software-ai.html">Software Consulting</a><a href="workflow.html">How it works</a><a href="software-portfolio.html">Software Portfolio</a><a href="background.html">My background</a><a href="contact.html">Contact</a></nav>
-      <a class="button button-small header-cta" href="contact.html#inquiry">Free consultation</a>
+      <a class="button button-small header-cta" href="contact.html#inquiry">Tell me what’s taking your time</a>
     </div>
   </header>
   <main id="main">
@@ -34,49 +34,38 @@
         <div class="hero-copy">
           <p class="eyebrow">Software &amp; automation / Twin Falls &amp; the Magic Valley</p>
           <h1 id="hero-title">Get more<br><span>time back.</span></h1>
-          <p class="intro">I help small businesses automate repetitive tasks, connect scattered information, and improve the software they use every day.</p>
-          <p>Spend less time copying data, chasing paperwork, and coordinating everything by hand.</p>
-          <p class="hero-pricing"><strong>Most projects are flat fee.</strong> We agree on the scope and price before work begins.</p>
-          <p class="credibility-line">I’m Samuel Kerr. 25 years developing software, including ten years at Stanford Linear Accelerator Center and later work at Fortinet. I’m also a farmer and former framing contractor.</p>
+          <p class="intro">I build practical software for small businesses tired of spreadsheets, repetitive paperwork, and disconnected systems. The goal is simple: less administrative work and more time running your business.</p>
           <div class="actions"><a class="button" href="contact.html#inquiry">Tell me what’s taking your time</a><a class="text-link" href="software-portfolio.html">See software I’ve built</a></div>
+          <p class="hero-invitation">Free initial conversation. No obligation.</p>
+          <p class="hero-pricing"><strong>Most projects are flat fee.</strong> We agree on the scope and price before work begins.</p>
+          <p class="credibility-line">I’m Samuel Kerr. 25 years developing software, including ten years at Stanford Linear Accelerator Center and later work at Fortinet. I also run a farm and previously operated a framing company in the Magic Valley. I understand the work of running a business as well as building its software.</p>
         </div>
         <div id="software-project" class="software-showcase hero-proof" data-software-carousel role="region" aria-label="Software projects">
-          <div class="project-picker" role="group" aria-label="Choose a software project" hidden>
-            <button type="button" data-project="0" aria-controls="software-water" aria-pressed="true">Water Scheduling</button>
-            <button type="button" data-project="1" aria-controls="software-weather" aria-pressed="false">Weather Analysis</button>
-            <button type="button" data-project="2" aria-controls="software-funds" aria-pressed="false">$CHPY ETF Research</button>
+          <div class="project-picker" aria-label="Choose a software project" hidden>
+            <button id="project-weather" type="button" data-project="0" aria-controls="software-weather">Weather Analysis</button>
+            <button id="project-funds" type="button" data-project="1" aria-controls="software-funds">Financial Analytics</button>
           </div>
           <div id="projects" class="software-slides">
-            <article id="software-water" class="software-proof" aria-labelledby="water-title">
-              <p class="eyebrow">Built by KERRCO / Irrigation operations</p>
-              <svg class="proof-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M32 6S14 26 14 38a18 18 0 0 0 36 0C50 26 32 6 32 6Z"/><path d="M23 39a9 9 0 0 0 9 9"/></svg>
-              <h3 id="water-title">Irrigation water<br>scheduling.</h3>
-              <p>Delivery requests, order status, and canal records in one application. A practical example of software built around the details of everyday operations.</p>
-              <a class="text-link" href="https://order.kerrco.us">Explore irrigation water scheduling</a>
-              <small><a href="water-delivery-software.html">Read the water scheduling case study</a> · Sign-in is required for operational screens.</small>
-            </article>
             <article id="software-weather" class="software-proof" aria-labelledby="weather-title">
-              <p class="eyebrow">Built by KERRCO / Weather &amp; climate analysis</p>
-              <svg class="proof-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="23" cy="23" r="10"/><path d="M23 3v5M23 38v5M3 23h5M38 23h5M9 9l4 4M37 9l-4 4M9 37l4-4M37 37l-4-4M25 55h24a10 10 0 0 0 0-20h-1a13 13 0 0 0-25-1 11 11 0 0 0 2 21Z"/></svg>
-              <h3 id="weather-title">Weather analysis<br>suite.</h3>
-              <p>Compare forecasts and explore local weather history in one place. IDWX brings together weather records, freeze dates, and interactive graphs built around Twin Falls.</p>
-              <a class="text-link" href="https://weather.kerrco.us">Explore the weather analysis suite</a>
-              <small>IDWX · Forecast comparison, historical analytics &amp; growing-season context.</small>
+              <figure class="software-preview"><a href="https://weather.kerrco.us/explore.html?view=compare"><img src="assets/img/rework/weather-analysis-screen.jpg" width="1126" height="640" alt="IDWX weather explorer comparing three years of Twin Falls daily temperatures" fetchpriority="high"></a><figcaption>Working application · Captured November 24, 2026</figcaption></figure>
+              <div class="software-proof-copy">
+                <p class="eyebrow">Built by KERRCO / IDWX</p>
+                <h2 id="weather-title">Weather analysis.</h2>
+                <p>Forecasts, local weather history, and growing-season data in one place. Explore the graph and inspect the records behind it.</p>
+                <a class="text-link" href="https://weather.kerrco.us/explore.html?view=compare">Explore the working application</a>
+              </div>
             </article>
             <article id="software-funds" class="software-proof" aria-labelledby="funds-title">
-              <p class="eyebrow">Built by KERRCO / $CHPY ETF research</p>
-              <svg class="proof-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8v48h48M16 40l12-12 12 6 16-20"/><path d="M44 14h12v12"/></svg>
-              <h3 id="funds-title">$CHPY ETF research<br>dashboard.</h3>
-              <p>Bring holdings, trades, distributions, and performance records into one research view. ActiveFundPerf links the supporting sources and makes gaps in the data visible.</p>
-              <a class="text-link" href="https://funds.kerrco.us">Explore the $CHPY research dashboard</a>
-              <small>ActiveFundPerf · ETF holdings, trades, distributions &amp; performance.</small>
+              <figure class="software-preview"><a href="https://funds.kerrco.us/?fund=CHPY#/overview"><img src="assets/img/rework/chpy-research-screen.jpg" width="1440" height="1100" alt="ActiveFundPerf research overview showing source availability, data gaps, and fund statistics for CHPY" loading="lazy"></a><figcaption>Working application · November 24, 2026 snapshot</figcaption></figure>
+              <div class="software-proof-copy">
+                <p class="eyebrow">Built by KERRCO / ActiveFundPerf</p>
+                <h2 id="funds-title">Financial analytics.</h2>
+                <p>Holdings, trades, distributions, and performance records brought into one research view, with supporting sources and visible gaps in the data.</p>
+                <a class="text-link" href="https://funds.kerrco.us/?fund=CHPY#/overview">Explore the research dashboard</a>
+              </div>
             </article>
           </div>
-          <div class="project-controls" hidden>
-            <button type="button" data-previous aria-label="Previous software project">Previous</button>
-            <p data-project-status role="status" aria-atomic="true">1 of 3 · Water Scheduling</p>
-            <button type="button" data-next aria-label="Next software project">Next</button>
-          </div>
+          <aside class="featured-case-study" aria-label="Irrigation software case study"><p class="eyebrow">Software for everyday operations</p><h3>Irrigation water scheduling.</h3><p>Delivery requests, order status, and canal records in one system.</p><a class="text-link" href="water-delivery-software.html">View the irrigation case study</a></aside>
         </div>
       </div>
     </section>
@@ -97,7 +86,7 @@
       <div><p class="eyebrow">Samuel Kerr / The developer behind KERRCO</p><h2 id="about-title">Software experience.<br>Business perspective.</h2><p>I’m based in Twin Falls. I got my first software job at 15, spent ten years as a software engineer at Stanford Linear Accelerator Center, and later worked at Fortinet.</p><p>I currently run a farm and previously operated a framing company in the Magic Valley. Woodworking is another part of my life. I bring that practical experience to understanding your work and building tools that fit it.</p><a class="text-link" href="background.html">More about my background</a><div class="background-links"><a id="farm" href="background.html#farm">Farm</a><a id="woodwork" href="background.html#woodwork">Woodwork</a><a id="construction" href="background.html#construction">Past construction work</a></div></div>
     </section>
     <section id="consultation" class="consultation section-space" aria-labelledby="consultation-title">
-      <div class="wrap consultation-grid"><div><p class="eyebrow">Free initial conversation</p><h2 id="consultation-title">What takes too much<br>of your day?</h2><p>Show me one task you keep doing by hand or a piece of software that slows you down. You don’t need a technical brief to start.</p><a class="button" href="contact.html#inquiry">Tell me what’s taking your time</a><small>The initial conversation is free. Any paid work is scoped and priced before it begins.</small></div><ol class="process"><li><h3>Find where the time goes</h3><p>Walk through a real task, the tools you use, and the steps that keep repeating.</p></li><li><h3>Agree on a first improvement</h3><p>Most projects are flat fee, with scope and price agreed up front. A smaller investigation or prototype can come first when needed.</p></li><li><h3>Try it and review the result</h3><p>Use the agreed solution with real tasks, compare the effort involved, and hand it over with clear hosting and support arrangements.</p></li></ol></div>
+      <div class="wrap consultation-grid"><div><p class="eyebrow">Free initial conversation</p><h2 id="consultation-title">What takes too much<br>of your day?</h2><p>Show me one task you keep doing by hand or a piece of software that slows you down. You don’t need a technical brief to start.</p><a class="button" href="contact.html#inquiry">Tell me what’s taking your time</a><small>Free initial conversation. No obligation. Any paid work is scoped and priced before it begins.</small></div><ol class="process"><li><h3>Find where the time goes</h3><p>Walk through a real task, the tools you use, and the steps that keep repeating.</p></li><li><h3>Agree on a first improvement</h3><p>Most projects are flat fee, with scope and price agreed up front. A smaller investigation or prototype can come first when needed.</p></li><li><h3>Try it and review the result</h3><p>Use the agreed solution with real tasks, compare the effort involved, and hand it over with clear hosting and support arrangements.</p></li></ol></div>
     </section>
   </main>
   <footer id="footer" class="site-footer"><div id="contact" class="wrap"><div class="footer-top"><div><p class="eyebrow">Samuel Kerr / Twin Falls &amp; the Magic Valley</p><h2>What’s taking too much<br>of your time?</h2><a class="email" href="mailto:kerrcoenterprises@gmail.com">kerrcoenterprises@gmail.com</a><p>Email links open your mail app. You can also copy the address above.</p></div><nav aria-label="Contact and portfolio"><a href="contact.html#inquiry">Free initial conversation</a><a href="workflow.html">See how we could work together</a><a href="mailto:kerrcoenterprises@gmail.com?subject=Software%20project%20inquiry">Discuss a software project</a><a href="background.html">Explore my background</a></nav></div><div class="footer-bottom"><a class="wordmark" href="index.html" aria-label="KERRCO home">KERRCO<span>.</span></a><span>Twin Falls, Idaho</span><span>© 2026 KERRCO</span><a href="#main">Back to top ↑</a></div></div></footer>
