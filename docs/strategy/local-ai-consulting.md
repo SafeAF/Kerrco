@@ -282,7 +282,7 @@ Work directly with Samuel Kerr: software development since age 15, ten years at 
 
 Lead with irrigation scheduling as the most directly relevant operational example. Weather analysis and ETF research show additional software capabilities. Explain the user, task, and demonstrated capability; add measured time savings and client testimony when available. Keep hypothetical examples clearly labeled.
 
-### Draft Homepage Opening
+### Homepage Copy Direction — Implemented Locally
 
 **Get more time back.**
 
@@ -296,7 +296,7 @@ Button: **Tell me what's taking your time**
 
 Supporting introduction: **I'm Samuel Kerr, a software developer based in Twin Falls. I've also operated a construction company in the Magic Valley, so I bring experience with both software and the practical work of running a business.**
 
-This is proposed copy for a future site update. A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
+This direction is reflected in the local site copy, with short variations for each page. Publication is a separate step. A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
 
 ---
 

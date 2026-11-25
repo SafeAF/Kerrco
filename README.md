@@ -1,15 +1,15 @@
 # KERRCO
 
-Software consulting, custom development, automation, and practical AI for small businesses, with Linux infrastructure as a supporting service. The public site is static HTML/CSS/JavaScript; a separate Python WSGI endpoint handles inquiry delivery.
+Software and automation to help small businesses in Twin Falls and the Magic Valley get time back from repetitive manual work and frustrating systems. Samuel Kerr provides custom development, existing-application improvements, integrations, and advice; AI is optional and Linux infrastructure is a supporting service. The public site is static HTML/CSS/JavaScript; a separate Python WSGI endpoint handles inquiry delivery.
 
 The current direction and progress are in [the website rework plan](docs/website-rework-plan.md). See [the release checklist](docs/website-release-checklist.md) for remaining review and hosting steps.
 
 ## Site structure
 
-- `web/index.html` — software-led homepage.
+- `web/index.html` — time-savings introduction, software services, project proof, and inquiry path.
 - `web/software-ai.html` — software consulting and development, automation, optional AI, and supporting Linux infrastructure.
 - `web/workflow.html` — illustrated request-to-estimate walkthrough, other possible projects, and the client process. The optional stage controls use `web/assets/js/workflow.js`; all stages remain readable without JavaScript.
-- `web/software-portfolio.html` — Weather Analysis Suite (IDWX), $CHPY ETF Research Dashboard (ActiveFundPerf), and Irrigation Water Scheduling, in that order, with project descriptions and application links.
+- `web/software-portfolio.html` — Irrigation Water Scheduling, Weather Analysis Suite (IDWX), and $CHPY ETF Research Dashboard (ActiveFundPerf), in that order, with project descriptions and application links.
 - `web/water-delivery-software.html` — water scheduling project overview.
 - `web/background.html` — farm, woodwork, and historical construction portfolio.
 - `web/contact.html` — short inquiry form, free consultation, email fallback, and project FAQ.
