@@ -4,51 +4,45 @@ For a concrete project example, a possible client workflow, and draft website co
 
 ## Current offer — November 24, 2026
 
-Lead with software consulting and development: new applications, improvements to existing software, automation and integrations, and technical advice. AI is one possible tool. Linux servers, hosting, deployments, and services are a supporting offer, based on decades of running personal Linux infrastructure.
+Lead with giving small-business owners and their teams more time back. Find where repetitive manual tasks, disconnected information, and inefficient processes consume their day, then use software and automation to reduce that work.
+
+Software consulting and development deliver that value: new applications, improvements to existing software, automation and integrations, and technical advice. Better use of existing tools may be enough for some tasks. AI is one possible tool. Linux servers, hosting, deployments, and services are a supporting offer, based on decades of running personal Linux infrastructure.
 
 Keep the established software career prominent: development since age 15, ten years at SLAC, and later work at Fortinet. Construction, farming, and woodworking round out that background.
 
 Most projects are flat fee. The initial conversation is free; any paid discovery, prototype, or build is scoped and priced before starting. Ownership, hosting, recurring costs, handover, and support are agreed in the proposal.
 
-The public homepage is focused on the client need, project proof, and inquiry path. Detailed personal galleries remain on the background page. A branded mailbox and personal name/portrait must use owner-confirmed information.
+Samuel Kerr is the owner-confirmed professional name. Use the full name when introducing the developer behind KERRCO. A branded mailbox and portrait still need owner-confirmed details or material.
 
-## Overview
+The homepage should lead with time savings, recognizable business problems, project proof, and a clear inquiry path. Bring the combination of software engineering and experience operating a Magic Valley construction company forward. Detailed personal galleries remain on the background page.
 
-KerrCo's advantage is not AI.
+## Primary Value Proposition
 
-KerrCo's advantage is the ability to understand real-world businesses and build software that solves practical problems.
+> I help small businesses in Twin Falls and the Magic Valley get more time back by automating repetitive tasks and improving the software they use every day.
 
-Most AI consultants sell technology.
+The primary outcome is less time spent copying information, chasing paperwork, assembling reports, coordinating work manually, and working around software that does not fit. Fewer mistakes and clearer operations support that outcome.
 
-We sell outcomes.
+Make the time savings concrete through familiar tasks. Keep the broader software offer available for existing-application fixes, new tools, integrations, and advice.
 
-The goal is to become the person local businesses call when they have an operational problem that software can solve.
+The goal is to become the person local businesses call when manual work or frustrating software keeps taking time away from running their business.
 
 ---
 
 ## Core Principle
 
-Do not sell AI.
-
-Do not sell software.
-
-Do not sell automation.
-
-Sell solutions to expensive problems.
+Lead with the time the owner and staff could reclaim, then explain the practical change that could deliver it. Software, automation, and AI are ways to do the work.
 
 Examples:
 
 * Reduce time spent creating estimates.
 * Eliminate duplicate data entry.
-* Improve scheduling.
+* Reduce calls and messages needed to coordinate schedules.
 * Reduce paperwork.
-* Improve customer communication.
+* Reduce time spent chasing information and preparing routine customer updates.
 * Prevent work from falling through the cracks.
-* Provide better visibility into operations.
+* Make job status and next actions easier to find without interrupting the owner.
 
-A business owner does not care what technology is used.
-
-They care whether the problem goes away.
+Explain how the change fits the existing business, what people still need to do, and whether it saves time overall. Technology choices, costs, ownership, and support remain part of the buying decision.
 
 ---
 
@@ -82,7 +76,7 @@ This combination is rare and valuable.
 
 ## Initial Target Market
 
-Focus on businesses with operational complexity and administrative overhead.
+Focus on small and medium-sized businesses in Twin Falls and the Magic Valley with recurring manual work and administrative overhead. Contractors, irrigation organizations, and agricultural service businesses are useful starting audiences given the existing experience and projects.
 
 Examples:
 
@@ -97,9 +91,7 @@ Examples:
 * Property management companies
 * Construction firms
 
-Avoid attempting to serve every industry.
-
-Start with one.
+Focus early outreach on one group at a time to learn which time-consuming tasks recur. Keep the broader software consulting offer available while using specific local examples to make its value recognizable.
 
 ---
 
@@ -172,7 +164,15 @@ Examples:
 * Invoice creation
 * Data synchronization
 
-These systems often provide immediate ROI.
+Prioritize recurring tasks where reducing manual effort could justify the project and ongoing costs. Establish the current effort before estimating the benefit.
+
+### Making time savings credible
+
+Before proposing a build, record how often the task happens, who does it, how long it takes, and how much follow-up or rework it creates. Compare the current process with a pilot using representative work.
+
+Count the effort the new process requires too: entering information, checking results, handling exceptions, and maintaining the tool. Distinguish staff time saved from shorter waiting times. Use measured results in case studies and identify estimates as estimates.
+
+"Save a lot of time" is an internal ambition. Public copy should name the work being reduced; specific hours or percentage savings need evidence from the relevant project.
 
 ---
 
@@ -224,8 +224,9 @@ Before building anything:
 2. Interview at least five business owners.
 3. Ask about frustrations.
 4. Ask what consumes office time.
-5. Ask what processes break down.
-6. Look for repeated patterns.
+5. Ask how often those tasks happen, how long they take, and who handles them.
+6. Ask what processes break down and create extra work.
+7. Look for repeated patterns.
 
 Do not pitch.
 
@@ -253,6 +254,7 @@ Document:
 * Existing workflow
 * Solution implemented
 * Time saved
+* How time savings were measured, including any new effort required
 * Cost saved
 * Business impact
 
@@ -266,34 +268,40 @@ The website should communicate:
 
 ### What We Do
 
-Software, automation, and AI solutions for real-world businesses.
+Help small businesses get time back by reducing repetitive manual work and improving everyday software.
 
 ### Who We Serve
 
-Contractors, farmers, tradesmen, and operational businesses.
+Small businesses in Twin Falls and the Magic Valley, with concrete examples drawn from contractors, irrigation, farming, and other operational businesses.
 
 ### What Makes Us Different
 
-We understand the work because we have done the work.
+Work directly with Samuel Kerr: software development since age 15, ten years at SLAC, later work at Fortinet, and experience operating a construction company in the Magic Valley.
 
 ### Proof
 
-Case studies, projects, software demonstrations, and operational experience.
+Lead with irrigation scheduling as the most directly relevant operational example. Weather analysis and ETF research show additional software capabilities. Explain the user, task, and demonstrated capability; add measured time savings and client testimony when available. Keep hypothetical examples clearly labeled.
+
+### Draft Homepage Opening
+
+**Get more time back.**
+
+I help small businesses in Twin Falls and the Magic Valley automate repetitive tasks, connect scattered information, and improve the software they use every day.
+
+Spend less time copying data, chasing paperwork, and working around your tools. We start with the task that takes too much of your day and find a practical way to make it easier.
+
+Most projects are flat fee. We agree on scope and price before work begins.
+
+Button: **Tell me what's taking your time**
+
+Supporting introduction: **I'm Samuel Kerr, a software developer based in Twin Falls. I've also operated a construction company in the Magic Valley, so I bring experience with both software and the practical work of running a business.**
+
+This is proposed copy for a future site update. A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
 
 ---
 
 ## Long-Term Goal
 
-Become the trusted local expert for operational software and automation.
+Become the trusted local software consultant who helps owners and their teams reclaim time from repetitive work and frustrating systems.
 
-Not a generic software consultant.
-
-Not an AI influencer.
-
-Not a SaaS startup chasing venture capital.
-
-A practical problem solver who helps businesses operate more efficiently and profitably.
-
-Technology is the tool.
-
-Business outcomes are the product.
+Build that reputation through useful projects, measured improvements, and clear ownership and support arrangements.

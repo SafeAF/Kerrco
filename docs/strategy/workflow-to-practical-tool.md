@@ -2,13 +2,16 @@
 
 Status: Working exploration for the KERRCO offer. Adapted into [the workflow page](../../web/workflow.html) on November 23, 2026, with a fictional request walkthrough, additional examples, and the client process. Service terms below remain open decisions.
 Date: November 22, 2026.
+Positioning updated: November 24, 2026 — time savings are the primary value proposition; Samuel Kerr is the confirmed professional name.
 Related: [Local consulting strategy](local-ai-consulting.md) and [website direction](../website-rework-plan.md).
 
-This worked example illustrates one kind of project within a broader software consulting offer. Existing-application work, technical advice, automation, and supporting Linux infrastructure are also in scope; AI is optional.
+This worked example illustrates how a focused project could give an owner and staff more time back by reducing manual coordination and repeated work. It sits within a broader software consulting offer. Existing-application work, technical advice, automation, and supporting Linux infrastructure are also in scope; AI is optional.
 
 ## The idea
 
-> I help small businesses turn a difficult workflow into a practical tool. That might mean custom software, a useful automation, or a focused application of AI.
+> I help small businesses get more time back by automating repetitive tasks and improving the software they use every day.
+
+A practical tool is one way to deliver that outcome. Start with where time goes today: copying information, chasing missing details, searching message threads, or manually coordinating the next step. The first improvement might use existing software, an integration, a focused application, or AI when it is useful.
 
 The useful next question is: **what would that actually look like for a business owner?**
 
@@ -63,9 +66,11 @@ Before building, agree on a few things to observe during a pilot:
 - Can staff find every pilot request and identify its next action?
 - Is the information needed for an estimate easier to find?
 - How much staff time goes into collecting and re-entering details?
+- How much time do the owner and staff spend finding records, checking status, and answering internal questions?
+- How much effort does the new process add for data entry, checking results, and handling exceptions?
 - Does the person covering the office understand the request without asking the owner?
 
-Use actual observations to compare the old and new process. Record what improved, what still needs work, and any new effort the tool creates. There is no savings claim until there is evidence.
+Use actual observations to compare the old and new process. Record what improved, what still needs work, and any new effort the tool creates. Distinguish staff time saved from shorter waiting times. Specific hours or percentage savings need measured evidence; estimates should be labeled as estimates.
 
 ## What working together could look like
 
@@ -79,6 +84,7 @@ Useful questions:
 - What starts the work, and how do you know it is finished?
 - Who touches it, and where is information handed off?
 - How often does it happen?
+- How long does it take, who spends that time, and what extra work do mistakes or missing details create?
 - What happens when something is missed or entered incorrectly?
 - What have you already tried?
 
@@ -152,7 +158,7 @@ The common pattern is a specific task with a clear beginning, a useful output, a
 
 The service page already introduces custom software, automation, and practical AI. A useful addition would make the process easier to picture:
 
-1. Keep the current positioning near the top.
+1. Lead with giving owners and staff more time back, using the current positioning in the local consulting strategy.
 2. Add one short, explicitly hypothetical example showing a workflow before and after.
 3. Explain the project process in four simple steps.
 4. Link to the existing software portfolio for completed project evidence.
@@ -181,11 +187,11 @@ A focused tool could give staff one place to record each request, collect the in
 
 ### Draft invitation
 
-**What is one task you wish worked better?**
+**What's taking too much of your time?**
 
-Tell me what happens today, where it gets frustrating, and what would make it easier. You do not need to know what software you need. The initial conversation is free; further work is scoped separately.
+Tell me about the task you keep doing by hand, the information you keep chasing, or the software that slows you down. I'm Samuel Kerr, based in Twin Falls. We can look for a practical way to reduce that work. You do not need to know what software you need. The initial conversation is free; further work is scoped separately.
 
-Button: **Tell me about your workflow**
+Button: **Tell me what's taking your time**
 
 Destination: The existing consultation section on the contact page.
 
