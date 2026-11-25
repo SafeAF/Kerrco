@@ -8,13 +8,13 @@ Lead with giving small-business owners and their teams more time back. Find wher
 
 Software consulting and development deliver that value: new applications, improvements to existing software, automation and integrations, and technical advice. Better use of existing tools may be enough for some tasks. AI is one possible tool. Linux servers, hosting, deployments, and services are a supporting offer, based on decades of running personal Linux infrastructure.
 
-Keep the established software career prominent: development since age 15, ten years at SLAC, and later work at Fortinet. Construction, farming, and woodworking round out that background.
+Lead the homepage credibility line with 25 years developing software, including ten years at Stanford Linear Accelerator Center and later work at Fortinet. Keep the first-software-job-at-15 detail in the fuller background further down the homepage and on the background page. Samuel currently runs a farm; his framing contractor business is past work. Make that distinction explicit, with woodworking as another part of his practical background.
 
 Most projects are flat fee. The initial conversation is free; any paid discovery, prototype, or build is scoped and priced before starting. Ownership, hosting, recurring costs, handover, and support are agreed in the proposal.
 
 Samuel Kerr is the owner-confirmed professional name. Use the full name when introducing the developer behind KERRCO. A branded mailbox and portrait still need owner-confirmed details or material.
 
-The homepage should lead with time savings, recognizable business problems, project proof, and a clear inquiry path. Bring the combination of software engineering and experience operating a Magic Valley construction company forward. Detailed personal galleries remain on the background page.
+The homepage should lead with time savings, recognizable business problems, project proof, and a clear inquiry path. Bring the combination of software engineering, current farming, and past experience as a Magic Valley framing contractor forward. Detailed personal galleries remain on the background page.
 
 ## Primary Value Proposition
 
@@ -276,13 +276,13 @@ Small businesses in Twin Falls and the Magic Valley, with concrete examples draw
 
 ### What Makes Us Different
 
-Work directly with Samuel Kerr: software development since age 15, ten years at SLAC, later work at Fortinet, and experience operating a construction company in the Magic Valley.
+Work directly with Samuel Kerr: 25 years developing software, ten years at Stanford Linear Accelerator Center, later work at Fortinet, current farming, and past experience operating a framing company in the Magic Valley.
 
 ### Proof
 
 Lead with irrigation scheduling as the most directly relevant operational example. Weather analysis and ETF research show additional software capabilities. Explain the user, task, and demonstrated capability; add measured time savings and client testimony when available. Keep hypothetical examples clearly labeled.
 
-### Homepage Copy Direction — Implemented Locally
+### Homepage Copy Direction — Published
 
 **Get more time back.**
 
@@ -294,9 +294,9 @@ Most projects are flat fee. We agree on scope and price before work begins.
 
 Button: **Tell me what's taking your time**
 
-Supporting introduction: **I'm Samuel Kerr, a software developer based in Twin Falls. I've also operated a construction company in the Magic Valley, so I bring experience with both software and the practical work of running a business.**
+Supporting introduction: **I'm Samuel Kerr, a software developer based in Twin Falls with 25 years of development experience. I currently run a farm and previously operated a framing company in the Magic Valley, so I bring experience with both software and the practical work of running a business.**
 
-This direction is reflected in the local site copy, with short variations for each page. Publication is a separate step. A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
+This direction is reflected in the public site copy, with short variations for each page. See [the November 24 deployment record](../deployments/2026-11-24-time-savings-copy.md). A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
 
 ---
 

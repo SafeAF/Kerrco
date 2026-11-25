@@ -1,14 +1,14 @@
 # KERRCO website rework plan
 
 Date: November 2, 2026
-Status: Time-savings copy rewrite implemented locally; browser review and publication of this rewrite remain open.
+Status: Time-savings copy rewrite deployed; current browser review remains open.
 Scope: Rework the static site in `web/`, review locally, and prepare for the existing hosting environment. Publication is a separate step.
 
 ## November 24, 2026 update
 
 The current direction supersedes the software-and-AI emphasis and email-only contact design below. Lead with giving small-business owners and staff more time back by reducing repetitive manual work and improving everyday software. Software development, existing-application improvements, automation, integrations, and advice deliver that value. AI is optional; Linux infrastructure is a supporting offer.
 
-The local copy rewrite uses Samuel Kerr's confirmed full name, brings the Magic Valley construction background forward, and leads the homepage and portfolio with irrigation scheduling. The contractor walkthrough remains explicitly fictional, and project descriptions make no measured savings claims. The contact page retains its inquiry form, free initial conversation, and flat-fee explanation. This copy update is local; publication is a separate step. See [the consulting strategy](strategy/local-ai-consulting.md) for the positioning.
+The copy rewrite uses Samuel Kerr's confirmed full name, brings the Magic Valley construction background forward, and leads the homepage and portfolio with irrigation scheduling. The contractor walkthrough remains explicitly fictional, and project descriptions make no measured savings claims. The contact page retains its inquiry form, free initial conversation, and flat-fee explanation. The update was deployed on November 24 following the owner's explicit request; see [the deployment record](deployments/2026-11-24-time-savings-copy.md). See [the consulting strategy](strategy/local-ai-consulting.md) for the positioning.
 
 Local validation passed for 11 pages, 341 references, 32 image elements, the release-check suite, and the inquiry client tests. Browser access remains unavailable for this rewrite; the earlier browser results below apply to earlier copy.
 
