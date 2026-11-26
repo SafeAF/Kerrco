@@ -6,10 +6,10 @@ The current direction and progress are in [the website rework plan](docs/website
 
 ## Site structure
 
-- `web/index.html` — time-savings introduction, real weather, irrigation, and financial application previews, an irrigation case-study thumbnail, software services, and inquiry path. Project tabs support Left/Right and Home/End; all previews remain readable without JavaScript.
+- `web/index.html` — time-savings introduction, real weather, irrigation, and financial application previews, an irrigation case-study thumbnail, software services, a NetMon project link under supporting infrastructure, and inquiry path. Project tabs support Left/Right and Home/End; all previews remain readable without JavaScript.
 - `web/software-ai.html` — software consulting and development, automation, optional AI, and supporting Linux infrastructure.
 - `web/workflow.html` — illustrated request-to-estimate walkthrough, other possible projects, and the client process. The optional stage controls use `web/assets/js/workflow.js`; all stages remain readable without JavaScript.
-- `web/software-portfolio.html` — Irrigation Water Scheduling, Weather Analysis Suite (IDWX), and $CHPY ETF Research Dashboard (ActiveFundPerf), in that order, with project descriptions and application links.
+- `web/software-portfolio.html` — Irrigation Water Scheduling, Weather Analysis Suite (IDWX), $CHPY ETF Research Dashboard (ActiveFundPerf), and NetMon Network Monitor, in that order. The first three have application links and captures; NetMon describes the LAN monitoring project and links to an inquiry.
 - `web/water-delivery-software.html` — water scheduling project overview with order-management and canal flow-history screenshots using test data.
 - `web/background.html` — farm, woodwork, and historical construction portfolio.
 - `web/contact.html` — short inquiry form, free consultation, email fallback, and project FAQ.

@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Software Built by Samuel Kerr | KERRCO Portfolio</title>
-  <meta name="description" content="Explore irrigation scheduling, local weather analysis, and ETF research software built by Samuel Kerr. Practical applications for specific tasks and information.">
+  <meta name="description" content="Explore irrigation scheduling, weather analysis, ETF research, and NetMon network monitoring software built by Samuel Kerr. Practical tools for real work.">
   <meta property="og:title" content="Software Portfolio | KERRCO">
-  <meta property="og:description" content="Explore irrigation scheduling, local weather analysis, and ETF research software built by Samuel Kerr. Practical applications for specific tasks and information.">
+  <meta property="og:description" content="Explore irrigation scheduling, weather analysis, ETF research, and NetMon network monitoring software built by Samuel Kerr. Practical tools for real work.">
   <link rel="canonical" href="https://kerrco.us/software-portfolio.html">
   <meta property="og:url" content="https://kerrco.us/software-portfolio.html">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
       <div>
         <p class="eyebrow">Software portfolio / Built by KERRCO</p>
         <h1 id="portfolio-title">Useful software.<br><span>Built around real work.</span></h1>
-        <p class="intro">Irrigation scheduling, local weather analysis, and ETF research. Three applications I’ve built to bring scattered information together and make specific tasks easier to handle.</p>
+        <p class="intro">Irrigation scheduling, local weather analysis, ETF research, and network monitoring. Four applications I’ve built to bring scattered information together and make specific tasks easier to handle.</p>
         <a class="text-link" href="contact.html#inquiry">Tell me what’s taking your time</a>
       </div>
       <nav class="portfolio-directory" aria-label="Projects on this page">
@@ -41,6 +41,7 @@
         <a href="#water-ordering"><strong>Irrigation Water Scheduling</strong><span>Delivery requests, order tracking &amp; canal operations</span></a>
         <a href="#weather"><strong>Weather Analysis Suite</strong><span>IDWX · Forecasts, historical data &amp; growing-season analytics</span></a>
         <a href="#funds"><strong>$CHPY ETF Research Dashboard</strong><span>ActiveFundPerf · Holdings, trades, distributions &amp; performance</span></a>
+        <a href="#netmon"><strong>NetMon Network Monitor</strong><span>Local network connections, DNS context &amp; incident review</span></a>
       </nav>
     </section>
 
@@ -109,6 +110,25 @@
           <p class="portfolio-note">Public research dashboard. Available analysis and data coverage vary by fund.</p>
         </div>
         <figure class="portfolio-project-preview"><a href="https://funds.kerrco.us/?fund=CHPY#/overview"><img src="assets/img/rework/chpy-research-screen.jpg" width="1440" height="1100" alt="ActiveFundPerf CHPY evidence overview with holdings availability, data gaps, and NAV and daily return charts" loading="lazy"></a><figcaption>From the working application: $CHPY research with source availability, data gaps, and performance charts. Captured November 24, 2026; values are a snapshot.</figcaption></figure>
+      </article>
+      <article id="netmon" class="portfolio-project" aria-labelledby="netmon-portfolio-title">
+        <header class="portfolio-identity identity-netmon">
+          <p class="eyebrow">NetMon / Linux &amp; network monitoring</p>
+          <svg class="portfolio-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="22" y="6" width="20" height="14" rx="2"/><path d="M32 20v12M12 40v-8h40v8"/><rect x="4" y="40" width="16" height="16" rx="2"/><rect x="24" y="40" width="16" height="16" rx="2"/><rect x="44" y="40" width="16" height="16" rx="2"/><path d="M32 32v8"/></svg>
+          <h2 id="netmon-portfolio-title">See what’s talking<br>on your network.</h2>
+          <p>Connections, domain context,<br>and unusual activity to investigate.</p>
+        </header>
+        <div class="portfolio-project-copy">
+          <h3>Follow the connection. Find the context.</h3>
+          <p>Investigating network activity can mean piecing together connection records, DNS lookups, and device information. NetMon brings those records into a local network dashboard so an operator can explore which devices are connecting where and review activity that needs attention.</p>
+          <dl class="portfolio-features">
+            <div><dt>The task</dt><dd>Investigate outbound connections, look up remote hosts, and review unusual patterns with their supporting records.</dd></div>
+            <div><dt>What I built</dt><dd>A Go router agent and a Rails web application with connection search, DNS correlation, activity charts, anomaly review, and grouped incidents.</dd></div>
+            <div><dt>What you can do</dt><dd>Move from a connection to its remote-host history, inspect associated domains when available, and use allowlists and suppression rules to reduce review noise.</dd></div>
+          </dl>
+          <div class="actions"><a class="button" href="contact.html#inquiry">Discuss network monitoring</a><a class="text-link" href="software-ai.html#infrastructure">Linux &amp; infrastructure help</a></div>
+          <p class="portfolio-note">Built for use on a local network. Domain context depends on observed DNS data; anomaly scores help an operator decide what to investigate.</p>
+        </div>
       </article>
     </div>
 

@@ -2,7 +2,7 @@
 
 For a concrete project example, a possible client workflow, and draft website copy, see [Turning a difficult workflow into a practical tool](workflow-to-practical-tool.md).
 
-## Current offer — November 25, 2026
+## Current offer — November 26, 2026
 
 Lead with giving small-business owners and their teams more time back. Find where repetitive manual tasks, disconnected information, and inefficient processes consume their day, then use software and automation to reduce that work.
 
@@ -263,6 +263,10 @@ Work directly with Samuel Kerr: 25 years developing software, ten years at Stanf
 ### Proof
 
 Irrigation scheduling is the most directly relevant operational example. Keep its case study prominent, but lead the homepage screenshot panel with the real weather interface for now, as selected by the owner. Use the existing financial research capture under the accessible label “Financial Analytics.” Retain the specific project names and all three application links in the full portfolio.
+
+NetMon adds a fourth portfolio project and concrete evidence for the supporting Linux infrastructure offer. Describe the practical task: bringing connection records, DNS context, and unusual activity together so an operator can investigate a local network. Its Go router agent and Rails dashboard demonstrate both systems integration and application development. Link the project from the homepage’s supporting-infrastructure section and the Linux services section; retain the three existing screenshot tabs.
+
+The NetMon description is grounded in the adjacent `network_monitor` checkout’s current product brief, architecture, routes, and application source. Keep the scope to connection search, DNS correlation when data is available, activity charts, anomaly and incident review, and allowlist/suppression rules. Use an inquiry link: a public demo address and publishable application captures have not been established. Avoid measured savings, customer results, or claims that anomaly detection guarantees network protection.
 
 On November 25 the owner confirmed that the irrigation application contains only test data, authorized adding more, and then authorized headless capture. Actual current-order and canal flow-history screenshots now appear in the homepage showcase, portfolio, and case study. The [case-study evidence](../water-delivery-software-review.md) records their provenance. Captions identify the records as test data; use actual rendered application screens as the evidence.
 
