@@ -111,6 +111,7 @@ details img { max-height: 480px; width: 100%; object-fit: contain; margin-top: 1
 .software-preview a { display: block; }
 .software-preview img { width: 100%; aspect-ratio: 1126 / 640; object-fit: cover; object-position: top; }
 #software-water .software-preview img { object-fit: contain; background: #f3f9f6; }
+#software-netmon .software-preview img { aspect-ratio: auto; object-fit: contain; background: #000; }
 .software-preview figcaption { padding: 10px 24px; font-size: 14px; color: #c4ced2; border-bottom: 1px solid #506068; }
 .software-proof-copy { display: flex; flex-direction: column; align-items: start; flex: 1; padding: 24px 28px; }
 .software-proof .eyebrow { color: #d4c6a7; }
