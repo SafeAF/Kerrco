@@ -16,7 +16,7 @@ Samuel Kerr is the owner-confirmed professional name. Use the full name when int
 
 The homepage should lead with time savings, recognizable business problems, project proof, and a clear inquiry path. Bring the combination of software engineering, current farming, and past experience as a Magic Valley framing contractor forward. Detailed personal galleries remain on the background page.
 
-The November 25 homepage revision is local and awaiting visual review and deployment. Preserve the cream, charcoal, and gold design. Use actual application captures in the hero, with labeled project tabs as the only selector controls. The owner selected the existing weather screenshot as the first view while a publishable irrigation screenshot is unavailable. Keep the irrigation case-study link visible beside the introduction and label the other screenshot project “Financial Analytics.”
+The November 25 homepage revision and subsequent irrigation screenshots are deployed; see the [homepage deployment](../deployments/2026-11-25-homepage-evidence.md) and [irrigation screenshot deployment](../deployments/2026-11-25-irrigation-screenshots.md). The owner subsequently authorized headless Chromium; the homepage, portfolio, and irrigation case study were checked at desktop, tablet, and phone widths for the irrigation-image update. Preserve the cream, charcoal, and gold design. Use actual application captures in the hero, with labeled project tabs as the only selector controls. Keep Weather Analysis first, followed by Irrigation Scheduling and Financial Analytics. Each project has an actual application capture. Keep a linked irrigation thumbnail visible beside the introduction.
 
 ## Primary Value Proposition
 
@@ -264,11 +264,11 @@ Work directly with Samuel Kerr: 25 years developing software, ten years at Stanf
 
 Irrigation scheduling is the most directly relevant operational example. Keep its case study prominent, but lead the homepage screenshot panel with the real weather interface for now, as selected by the owner. Use the existing financial research capture under the accessible label “Financial Analytics.” Retain the specific project names and all three application links in the full portfolio.
 
-No publishable irrigation capture has been supplied. On November 25 the owner confirmed that the application contains only test data and authorized adding more. The [case-study evidence](../water-delivery-software-review.md) records that clarification. Add a real irrigation screenshot once application and browser access are available, and identify its records as test data; do not substitute a mock interface as evidence of working software.
+On November 25 the owner confirmed that the irrigation application contains only test data, authorized adding more, and then authorized headless capture. Actual current-order and canal flow-history screenshots now appear in the homepage showcase, portfolio, and case study. The [case-study evidence](../water-delivery-software-review.md) records their provenance. Captions identify the records as test data; use actual rendered application screens as the evidence.
 
 Explain the user, task, and demonstrated capability; add measured time savings and client testimony when available. Keep hypothetical examples clearly labeled. Date application captures so their displayed values are understood as snapshots.
 
-### Homepage Copy Direction — November 25 local revision
+### Homepage Copy Direction — November 25 published revision
 
 **Get more time back.**
 
@@ -282,7 +282,7 @@ Supporting line: **Free initial conversation. No obligation.** Use the same invi
 
 Supporting introduction: **I'm Samuel Kerr. 25 years developing software, including ten years at Stanford Linear Accelerator Center and later work at Fortinet. I also run a farm and previously operated a framing company in the Magic Valley. I understand the work of running a business as well as building its software.**
 
-The previous time-savings copy was published in the [November 24 deployment](../deployments/2026-11-24-time-savings-copy.md). The revision above is implemented locally and has not been deployed. A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
+The previous time-savings copy was published in the [November 24 deployment](../deployments/2026-11-24-time-savings-copy.md). The revision above was published in the [November 25 deployment](../deployments/2026-11-25-homepage-evidence.md). A free initial conversation leads to an agreed next step; any paid investigation, prototype, or build is scoped and priced separately before it starts.
 
 ---
 

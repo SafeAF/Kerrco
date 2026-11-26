@@ -1,10 +1,10 @@
 # Water delivery software: case-study evidence
 
-Source: read-only browser-review brief supplied by the owner in this conversation. This implementation did not independently inspect the authenticated application. Application: `https://order.kerrco.us`.
+Initial source: a read-only browser-review brief supplied by the owner. On November 25, 2026, the owner authorized headless Chromium capture; authenticated read-only inspection of the demo application then confirmed the order-management and canal flow-history views. Application: `https://order.kerrco.us`.
 
 ## Owner clarification — November 25, 2026
 
-The owner confirmed that `order.kerrco.us` contains test data, with no operational data, and authorized adding more test data. This resolves the earlier uncertainty about whether the displayed records were real. Application access is still required to populate and capture the demonstration; no new screenshot has been captured in this revision.
+The owner confirmed that `order.kerrco.us` contains test data, with no operational data, and authorized adding more test data. This resolves the earlier uncertainty about whether the displayed records were real. The additive demonstration batch was populated earlier that day. Authenticated screenshots of its current orders and canal flow history are now included in the website.
 
 ## Observed interface features
 
@@ -30,15 +30,15 @@ No submission, approval transition, physical delivery, edit, deletion, or announ
 - One displayed test request reportedly has a turn-off date before its turn-on date; validation behavior was not tested. This remains a follow-up question, not a diagnosed defect.
 - Precise implementation responsibilities, technology stack, and evidence for any measurable results. The owner previously confirmed building the software; no narrower role or stack is inferred.
 
-## Screenshot plan
+## Screenshot evidence — November 25, 2026
 
-No publishable screenshots have yet been supplied or added to the website. The owner has confirmed that the displayed records are test data. Capture a representative application view with clearly fictional names and a caption identifying it as test data.
+The owner explicitly authorized installed headless Chromium after the normal browser connection remained unavailable. The capture used the application's publicly displayed demo login and visited only the order-management and canal detail pages. No order, approval, rejection, announcement, or account setting was changed.
 
-Potential captures:
+- `web/assets/img/rework/irrigation-orders-screen.jpg` — 1440 × 700; actual current-order table showing fictional demo users, headgates, dates, and requested amounts.
+- `web/assets/img/rework/irrigation-canal-screen.jpg` — 1440 × 1100; actual Demo Orchard Canal capacity/status, rendered flow-history chart, and recorded readings.
 
-1. User order overview showing multiple statuses.
-2. Delivery-request form with fictional headgate and owner.
-3. Administrator approval queue.
-4. Canal/headgate flow-history screen.
+The captures show actual rendered application UI and are not mockups. Browser framing selects the relevant content; no data, labels, or controls were altered. Captions identify the records as test data and the capture date. Credentials are absent from the screenshots and were not saved with the capture artifacts.
 
-The current public-facing draft uses only the observed features above, a read-only review qualification, and the owner-confirmed project attribution. Customer identity, screenshots, credentials, and unsupported outcome claims are omitted.
+The homepage includes an Irrigation Scheduling tab and a persistent case-study thumbnail. The portfolio includes the current-orders capture, and the case study includes both images with full-size links and text descriptions. Weather remains the initial homepage project.
+
+Capture metadata and source images are retained under ignored `artifacts/irrigation-captures-2026-11-25/published/`. Marketing-page browser checks at 1440, 768, 375, and 320px passed for the three affected pages, including loaded images, no horizontal overflow, project-tab keyboard navigation, no-JavaScript content, and thumbnail/full-size navigation. This does not establish full accessibility certification or physical delivery behavior.
